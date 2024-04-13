@@ -1,0 +1,2640 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbtjud34wcwwd"]
+
+[ext_resource type="Script" path="res://Scripts/paint_control.gd" id="1_5w6cq"]
+[ext_resource type="Script" path="res://Scripts/paint_hover.gd" id="2_8jfas"]
+
+[node name="PaintArea" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("1_5w6cq")
+
+[node name="Canvas" type="Node2D" parent="CanvasLayer"]
+
+[node name="A1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 99.0
+offset_right = 506.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 139.0
+offset_right = 546.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 139.0
+offset_right = 506.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 99.0
+offset_right = 706.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 99.0
+offset_right = 666.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 99.0
+offset_right = 626.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 99.0
+offset_right = 586.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 99.0
+offset_right = 546.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 179.0
+offset_right = 546.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 179.0
+offset_right = 506.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 139.0
+offset_right = 706.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 139.0
+offset_right = 666.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 139.0
+offset_right = 626.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 139.0
+offset_right = 586.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 259.0
+offset_right = 506.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 219.0
+offset_right = 706.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 219.0
+offset_right = 666.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 219.0
+offset_right = 626.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 219.0
+offset_right = 586.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 219.0
+offset_right = 546.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 219.0
+offset_right = 506.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 179.0
+offset_right = 706.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 179.0
+offset_right = 666.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 179.0
+offset_right = 626.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 179.0
+offset_right = 586.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 299.0
+offset_right = 546.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 299.0
+offset_right = 506.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 259.0
+offset_right = 706.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 259.0
+offset_right = 666.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 259.0
+offset_right = 626.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 259.0
+offset_right = 586.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 259.0
+offset_right = 546.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 299.0
+offset_right = 706.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 299.0
+offset_right = 666.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 299.0
+offset_right = 626.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 299.0
+offset_right = 586.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 99.0
+offset_right = 746.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 139.0
+offset_right = 786.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 139.0
+offset_right = 746.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 99.0
+offset_right = 946.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 99.0
+offset_right = 906.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 99.0
+offset_right = 866.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 99.0
+offset_right = 826.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="A8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 99.0
+offset_right = 786.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 179.0
+offset_right = 786.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 179.0
+offset_right = 746.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 139.0
+offset_right = 946.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 139.0
+offset_right = 906.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 139.0
+offset_right = 866.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="B9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 139.0
+offset_right = 826.0
+offset_bottom = 179.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 259.0
+offset_right = 746.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 219.0
+offset_right = 946.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 219.0
+offset_right = 906.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 219.0
+offset_right = 866.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 219.0
+offset_right = 826.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 219.0
+offset_right = 786.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="D7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 219.0
+offset_right = 746.0
+offset_bottom = 259.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 179.0
+offset_right = 946.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.500868
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 179.0
+offset_right = 906.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 179.0
+offset_right = 866.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="C9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 179.0
+offset_right = 826.0
+offset_bottom = 219.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 299.0
+offset_right = 786.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 299.0
+offset_right = 746.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 259.0
+offset_right = 946.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 259.0
+offset_right = 906.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 259.0
+offset_right = 866.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 259.0
+offset_right = 826.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="E8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 259.0
+offset_right = 786.0
+offset_bottom = 299.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 299.0
+offset_right = 946.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 299.0
+offset_right = 906.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 299.0
+offset_right = 866.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="F9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 299.0
+offset_right = 826.0
+offset_bottom = 339.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 339.0
+offset_right = 506.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 379.0
+offset_right = 546.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 379.0
+offset_right = 506.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 339.0
+offset_right = 706.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 339.0
+offset_right = 666.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 339.0
+offset_right = 626.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 339.0
+offset_right = 586.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 339.0
+offset_right = 546.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 419.0
+offset_right = 546.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 419.0
+offset_right = 506.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 379.0
+offset_right = 706.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 379.0
+offset_right = 666.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 379.0
+offset_right = 626.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 379.0
+offset_right = 586.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 499.0
+offset_right = 506.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 459.0
+offset_right = 706.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 459.0
+offset_right = 666.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 459.0
+offset_right = 626.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 459.0
+offset_right = 586.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 459.0
+offset_right = 546.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 459.0
+offset_right = 506.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 419.0
+offset_right = 706.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 419.0
+offset_right = 666.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 419.0
+offset_right = 626.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 419.0
+offset_right = 586.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 539.0
+offset_right = 546.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 466.0
+offset_top = 539.0
+offset_right = 506.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 499.0
+offset_right = 706.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 499.0
+offset_right = 666.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 499.0
+offset_right = 626.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 499.0
+offset_right = 586.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 506.0
+offset_top = 499.0
+offset_right = 546.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 666.0
+offset_top = 539.0
+offset_right = 706.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 626.0
+offset_top = 539.0
+offset_right = 666.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 586.0
+offset_top = 539.0
+offset_right = 626.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 546.0
+offset_top = 539.0
+offset_right = 586.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 339.0
+offset_right = 746.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 379.0
+offset_right = 786.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 379.0
+offset_right = 746.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 339.0
+offset_right = 946.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 339.0
+offset_right = 906.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 339.0
+offset_right = 866.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 339.0
+offset_right = 826.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="G8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 339.0
+offset_right = 786.0
+offset_bottom = 379.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 419.0
+offset_right = 786.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 419.0
+offset_right = 746.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 379.0
+offset_right = 946.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 379.0
+offset_right = 906.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 379.0
+offset_right = 866.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="H9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 379.0
+offset_right = 826.0
+offset_bottom = 419.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 499.0
+offset_right = 746.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 459.0
+offset_right = 946.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 459.0
+offset_right = 906.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 459.0
+offset_right = 866.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 459.0
+offset_right = 826.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 459.0
+offset_right = 786.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="J7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 459.0
+offset_right = 746.0
+offset_bottom = 499.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 419.0
+offset_right = 946.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 419.0
+offset_right = 906.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 419.0
+offset_right = 866.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="I9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 419.0
+offset_right = 826.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 539.0
+offset_right = 786.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 706.0
+offset_top = 539.0
+offset_right = 746.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 499.0
+offset_right = 946.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 499.0
+offset_right = 906.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 499.0
+offset_right = 866.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 499.0
+offset_right = 826.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="K8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 746.0
+offset_top = 499.0
+offset_right = 786.0
+offset_bottom = 539.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 906.0
+offset_top = 539.0
+offset_right = 946.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 866.0
+offset_top = 539.0
+offset_right = 906.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 826.0
+offset_top = 539.0
+offset_right = 866.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="L9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 786.0
+offset_top = 539.0
+offset_right = 826.0
+offset_bottom = 579.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("2_8jfas")
+
+[node name="Buttons" type="Node2D" parent="CanvasLayer"]
+
+[node name="Button" type="Button" parent="CanvasLayer/Buttons"]
+offset_left = 275.0
+offset_top = 191.0
+offset_right = 325.0
+offset_bottom = 222.0
+text = "Black"
+
+[node name="Button2" type="Button" parent="CanvasLayer/Buttons"]
+offset_left = 274.0
+offset_top = 231.0
+offset_right = 324.0
+offset_bottom = 262.0
+text = "White"
+
+[node name="Button3" type="Button" parent="CanvasLayer/Buttons"]
+offset_left = 273.0
+offset_top = 278.0
+offset_right = 327.0
+offset_bottom = 309.0
+text = "Red"
+
+[node name="Button4" type="Button" parent="CanvasLayer/Buttons"]
+offset_left = 263.0
+offset_top = 328.0
+offset_right = 329.0
+offset_bottom = 359.0
+text = "Orange"
+
+[node name="Button5" type="Button" parent="CanvasLayer/Buttons"]
+offset_left = 268.0
+offset_top = 375.0
+offset_right = 327.0
+offset_bottom = 406.0
+text = "Yellow"
+
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A1" to="CanvasLayer/Canvas/A1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A1" to="CanvasLayer/Canvas/A1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B2" to="CanvasLayer/Canvas/B2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B2" to="CanvasLayer/Canvas/B2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B1" to="CanvasLayer/Canvas/B1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B1" to="CanvasLayer/Canvas/B1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A6" to="CanvasLayer/Canvas/A6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A6" to="CanvasLayer/Canvas/A6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A5" to="CanvasLayer/Canvas/A5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A5" to="CanvasLayer/Canvas/A5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A4" to="CanvasLayer/Canvas/A4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A4" to="CanvasLayer/Canvas/A4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A3" to="CanvasLayer/Canvas/A3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A3" to="CanvasLayer/Canvas/A3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A2" to="CanvasLayer/Canvas/A2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A2" to="CanvasLayer/Canvas/A2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C2" to="CanvasLayer/Canvas/C2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C2" to="CanvasLayer/Canvas/C2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C1" to="CanvasLayer/Canvas/C1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C1" to="CanvasLayer/Canvas/C1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B6" to="CanvasLayer/Canvas/B6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B6" to="CanvasLayer/Canvas/B6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B5" to="CanvasLayer/Canvas/B5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B5" to="CanvasLayer/Canvas/B5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B4" to="CanvasLayer/Canvas/B4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B4" to="CanvasLayer/Canvas/B4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B3" to="CanvasLayer/Canvas/B3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B3" to="CanvasLayer/Canvas/B3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E1" to="CanvasLayer/Canvas/E1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E1" to="CanvasLayer/Canvas/E1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D6" to="CanvasLayer/Canvas/D6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D6" to="CanvasLayer/Canvas/D6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D5" to="CanvasLayer/Canvas/D5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D5" to="CanvasLayer/Canvas/D5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D4" to="CanvasLayer/Canvas/D4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D4" to="CanvasLayer/Canvas/D4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D3" to="CanvasLayer/Canvas/D3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D3" to="CanvasLayer/Canvas/D3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D2" to="CanvasLayer/Canvas/D2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D2" to="CanvasLayer/Canvas/D2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D1" to="CanvasLayer/Canvas/D1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D1" to="CanvasLayer/Canvas/D1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C6" to="CanvasLayer/Canvas/C6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C6" to="CanvasLayer/Canvas/C6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C5" to="CanvasLayer/Canvas/C5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C5" to="CanvasLayer/Canvas/C5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C4" to="CanvasLayer/Canvas/C4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C4" to="CanvasLayer/Canvas/C4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C3" to="CanvasLayer/Canvas/C3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C3" to="CanvasLayer/Canvas/C3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F2" to="CanvasLayer/Canvas/F2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F2" to="CanvasLayer/Canvas/F2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F1" to="CanvasLayer/Canvas/F1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F1" to="CanvasLayer/Canvas/F1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E6" to="CanvasLayer/Canvas/E6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E6" to="CanvasLayer/Canvas/E6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E5" to="CanvasLayer/Canvas/E5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E5" to="CanvasLayer/Canvas/E5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E4" to="CanvasLayer/Canvas/E4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E4" to="CanvasLayer/Canvas/E4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E3" to="CanvasLayer/Canvas/E3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E3" to="CanvasLayer/Canvas/E3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E2" to="CanvasLayer/Canvas/E2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E2" to="CanvasLayer/Canvas/E2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F6" to="CanvasLayer/Canvas/F6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F6" to="CanvasLayer/Canvas/F6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F5" to="CanvasLayer/Canvas/F5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F5" to="CanvasLayer/Canvas/F5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F4" to="CanvasLayer/Canvas/F4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F4" to="CanvasLayer/Canvas/F4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F3" to="CanvasLayer/Canvas/F3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F3" to="CanvasLayer/Canvas/F3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A7" to="CanvasLayer/Canvas/A7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A7" to="CanvasLayer/Canvas/A7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B8" to="CanvasLayer/Canvas/B8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B8" to="CanvasLayer/Canvas/B8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B7" to="CanvasLayer/Canvas/B7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B7" to="CanvasLayer/Canvas/B7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A12" to="CanvasLayer/Canvas/A12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A12" to="CanvasLayer/Canvas/A12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A11" to="CanvasLayer/Canvas/A11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A11" to="CanvasLayer/Canvas/A11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A10" to="CanvasLayer/Canvas/A10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A10" to="CanvasLayer/Canvas/A10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A9" to="CanvasLayer/Canvas/A9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A9" to="CanvasLayer/Canvas/A9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/A8" to="CanvasLayer/Canvas/A8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/A8" to="CanvasLayer/Canvas/A8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C8" to="CanvasLayer/Canvas/C8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C8" to="CanvasLayer/Canvas/C8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C7" to="CanvasLayer/Canvas/C7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C7" to="CanvasLayer/Canvas/C7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B12" to="CanvasLayer/Canvas/B12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B12" to="CanvasLayer/Canvas/B12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B11" to="CanvasLayer/Canvas/B11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B11" to="CanvasLayer/Canvas/B11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B10" to="CanvasLayer/Canvas/B10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B10" to="CanvasLayer/Canvas/B10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/B9" to="CanvasLayer/Canvas/B9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/B9" to="CanvasLayer/Canvas/B9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E7" to="CanvasLayer/Canvas/E7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E7" to="CanvasLayer/Canvas/E7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D12" to="CanvasLayer/Canvas/D12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D12" to="CanvasLayer/Canvas/D12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D11" to="CanvasLayer/Canvas/D11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D11" to="CanvasLayer/Canvas/D11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D10" to="CanvasLayer/Canvas/D10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D10" to="CanvasLayer/Canvas/D10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D9" to="CanvasLayer/Canvas/D9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D9" to="CanvasLayer/Canvas/D9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D8" to="CanvasLayer/Canvas/D8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D8" to="CanvasLayer/Canvas/D8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/D7" to="CanvasLayer/Canvas/D7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/D7" to="CanvasLayer/Canvas/D7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C12" to="CanvasLayer/Canvas/C12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C12" to="CanvasLayer/Canvas/C12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C11" to="CanvasLayer/Canvas/C11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C11" to="CanvasLayer/Canvas/C11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C10" to="CanvasLayer/Canvas/C10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C10" to="CanvasLayer/Canvas/C10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/C9" to="CanvasLayer/Canvas/C9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/C9" to="CanvasLayer/Canvas/C9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F8" to="CanvasLayer/Canvas/F8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F8" to="CanvasLayer/Canvas/F8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F7" to="CanvasLayer/Canvas/F7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F7" to="CanvasLayer/Canvas/F7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E12" to="CanvasLayer/Canvas/E12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E12" to="CanvasLayer/Canvas/E12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E11" to="CanvasLayer/Canvas/E11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E11" to="CanvasLayer/Canvas/E11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E10" to="CanvasLayer/Canvas/E10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E10" to="CanvasLayer/Canvas/E10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E9" to="CanvasLayer/Canvas/E9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E9" to="CanvasLayer/Canvas/E9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/E8" to="CanvasLayer/Canvas/E8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/E8" to="CanvasLayer/Canvas/E8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F12" to="CanvasLayer/Canvas/F12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F12" to="CanvasLayer/Canvas/F12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F11" to="CanvasLayer/Canvas/F11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F11" to="CanvasLayer/Canvas/F11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F10" to="CanvasLayer/Canvas/F10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F10" to="CanvasLayer/Canvas/F10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/F9" to="CanvasLayer/Canvas/F9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/F9" to="CanvasLayer/Canvas/F9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G1" to="CanvasLayer/Canvas/G1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G1" to="CanvasLayer/Canvas/G1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H2" to="CanvasLayer/Canvas/H2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H2" to="CanvasLayer/Canvas/H2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H1" to="CanvasLayer/Canvas/H1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H1" to="CanvasLayer/Canvas/H1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G6" to="CanvasLayer/Canvas/G6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G6" to="CanvasLayer/Canvas/G6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G5" to="CanvasLayer/Canvas/G5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G5" to="CanvasLayer/Canvas/G5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G4" to="CanvasLayer/Canvas/G4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G4" to="CanvasLayer/Canvas/G4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G3" to="CanvasLayer/Canvas/G3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G3" to="CanvasLayer/Canvas/G3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G2" to="CanvasLayer/Canvas/G2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G2" to="CanvasLayer/Canvas/G2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I2" to="CanvasLayer/Canvas/I2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I2" to="CanvasLayer/Canvas/I2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I1" to="CanvasLayer/Canvas/I1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I1" to="CanvasLayer/Canvas/I1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H6" to="CanvasLayer/Canvas/H6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H6" to="CanvasLayer/Canvas/H6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H5" to="CanvasLayer/Canvas/H5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H5" to="CanvasLayer/Canvas/H5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H4" to="CanvasLayer/Canvas/H4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H4" to="CanvasLayer/Canvas/H4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H3" to="CanvasLayer/Canvas/H3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H3" to="CanvasLayer/Canvas/H3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K1" to="CanvasLayer/Canvas/K1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K1" to="CanvasLayer/Canvas/K1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J6" to="CanvasLayer/Canvas/J6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J6" to="CanvasLayer/Canvas/J6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J5" to="CanvasLayer/Canvas/J5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J5" to="CanvasLayer/Canvas/J5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J4" to="CanvasLayer/Canvas/J4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J4" to="CanvasLayer/Canvas/J4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J3" to="CanvasLayer/Canvas/J3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J3" to="CanvasLayer/Canvas/J3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J2" to="CanvasLayer/Canvas/J2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J2" to="CanvasLayer/Canvas/J2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J1" to="CanvasLayer/Canvas/J1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J1" to="CanvasLayer/Canvas/J1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I6" to="CanvasLayer/Canvas/I6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I6" to="CanvasLayer/Canvas/I6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I5" to="CanvasLayer/Canvas/I5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I5" to="CanvasLayer/Canvas/I5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I4" to="CanvasLayer/Canvas/I4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I4" to="CanvasLayer/Canvas/I4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I3" to="CanvasLayer/Canvas/I3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I3" to="CanvasLayer/Canvas/I3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L2" to="CanvasLayer/Canvas/L2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L2" to="CanvasLayer/Canvas/L2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L1" to="CanvasLayer/Canvas/L1" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L1" to="CanvasLayer/Canvas/L1" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K6" to="CanvasLayer/Canvas/K6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K6" to="CanvasLayer/Canvas/K6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K5" to="CanvasLayer/Canvas/K5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K5" to="CanvasLayer/Canvas/K5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K4" to="CanvasLayer/Canvas/K4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K4" to="CanvasLayer/Canvas/K4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K3" to="CanvasLayer/Canvas/K3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K3" to="CanvasLayer/Canvas/K3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K2" to="CanvasLayer/Canvas/K2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K2" to="CanvasLayer/Canvas/K2" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L6" to="CanvasLayer/Canvas/L6" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L6" to="CanvasLayer/Canvas/L6" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L5" to="CanvasLayer/Canvas/L5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L5" to="CanvasLayer/Canvas/L5" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L4" to="CanvasLayer/Canvas/L4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L4" to="CanvasLayer/Canvas/L4" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L3" to="CanvasLayer/Canvas/L3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L3" to="CanvasLayer/Canvas/L3" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G7" to="CanvasLayer/Canvas/G7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G7" to="CanvasLayer/Canvas/G7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H8" to="CanvasLayer/Canvas/H8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H8" to="CanvasLayer/Canvas/H8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H7" to="CanvasLayer/Canvas/H7" method="_on_mouse_entered"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G12" to="CanvasLayer/Canvas/G12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G12" to="CanvasLayer/Canvas/G12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G11" to="CanvasLayer/Canvas/G11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G11" to="CanvasLayer/Canvas/G11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G10" to="CanvasLayer/Canvas/G10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G10" to="CanvasLayer/Canvas/G10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G9" to="CanvasLayer/Canvas/G9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G9" to="CanvasLayer/Canvas/G9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/G8" to="CanvasLayer/Canvas/G8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/G8" to="CanvasLayer/Canvas/G8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I8" to="CanvasLayer/Canvas/I8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I8" to="CanvasLayer/Canvas/I8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I7" to="CanvasLayer/Canvas/I7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I7" to="CanvasLayer/Canvas/I7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H12" to="CanvasLayer/Canvas/H12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H12" to="CanvasLayer/Canvas/H12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H11" to="CanvasLayer/Canvas/H11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H11" to="CanvasLayer/Canvas/H11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H10" to="CanvasLayer/Canvas/H10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H10" to="CanvasLayer/Canvas/H10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/H9" to="CanvasLayer/Canvas/H9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/H9" to="CanvasLayer/Canvas/H9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K7" to="CanvasLayer/Canvas/K7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K7" to="CanvasLayer/Canvas/K7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J12" to="CanvasLayer/Canvas/J12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J12" to="CanvasLayer/Canvas/J12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J11" to="CanvasLayer/Canvas/J11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J11" to="CanvasLayer/Canvas/J11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J10" to="CanvasLayer/Canvas/J10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J10" to="CanvasLayer/Canvas/J10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J9" to="CanvasLayer/Canvas/J9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J9" to="CanvasLayer/Canvas/J9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J8" to="CanvasLayer/Canvas/J8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J8" to="CanvasLayer/Canvas/J8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/J7" to="CanvasLayer/Canvas/J7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/J7" to="CanvasLayer/Canvas/J7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I12" to="CanvasLayer/Canvas/I12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I12" to="CanvasLayer/Canvas/I12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I11" to="CanvasLayer/Canvas/I11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I11" to="CanvasLayer/Canvas/I11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I10" to="CanvasLayer/Canvas/I10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I10" to="CanvasLayer/Canvas/I10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/I9" to="CanvasLayer/Canvas/I9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/I9" to="CanvasLayer/Canvas/I9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L8" to="CanvasLayer/Canvas/L8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L8" to="CanvasLayer/Canvas/L8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L7" to="CanvasLayer/Canvas/L7" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L7" to="CanvasLayer/Canvas/L7" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K12" to="CanvasLayer/Canvas/K12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K12" to="CanvasLayer/Canvas/K12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K11" to="CanvasLayer/Canvas/K11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K11" to="CanvasLayer/Canvas/K11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K10" to="CanvasLayer/Canvas/K10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K10" to="CanvasLayer/Canvas/K10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K9" to="CanvasLayer/Canvas/K9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K9" to="CanvasLayer/Canvas/K9" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/K8" to="CanvasLayer/Canvas/K8" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/K8" to="CanvasLayer/Canvas/K8" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L12" to="CanvasLayer/Canvas/L12" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L12" to="CanvasLayer/Canvas/L12" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L11" to="CanvasLayer/Canvas/L11" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L11" to="CanvasLayer/Canvas/L11" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L10" to="CanvasLayer/Canvas/L10" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L10" to="CanvasLayer/Canvas/L10" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Canvas/L9" to="CanvasLayer/Canvas/L9" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Canvas/L9" to="CanvasLayer/Canvas/L9" method="_on_mouse_exited"]
