@@ -2316,35 +2316,35 @@ script = ExtResource("2_8jfas")
 
 [node name="Buttons" type="Node2D" parent="CanvasLayer"]
 
-[node name="Button" type="Button" parent="CanvasLayer/Buttons"]
+[node name="Black" type="Button" parent="CanvasLayer/Buttons"]
 offset_left = 275.0
 offset_top = 191.0
 offset_right = 325.0
 offset_bottom = 222.0
 text = "Black"
 
-[node name="Button2" type="Button" parent="CanvasLayer/Buttons"]
+[node name="White" type="Button" parent="CanvasLayer/Buttons"]
 offset_left = 274.0
 offset_top = 231.0
 offset_right = 324.0
 offset_bottom = 262.0
 text = "White"
 
-[node name="Button3" type="Button" parent="CanvasLayer/Buttons"]
+[node name="Red" type="Button" parent="CanvasLayer/Buttons"]
 offset_left = 273.0
 offset_top = 278.0
 offset_right = 327.0
 offset_bottom = 309.0
 text = "Red"
 
-[node name="Button4" type="Button" parent="CanvasLayer/Buttons"]
+[node name="Orange" type="Button" parent="CanvasLayer/Buttons"]
 offset_left = 263.0
 offset_top = 328.0
 offset_right = 329.0
 offset_bottom = 359.0
 text = "Orange"
 
-[node name="Button5" type="Button" parent="CanvasLayer/Buttons"]
+[node name="Yellow" type="Button" parent="CanvasLayer/Buttons"]
 offset_left = 268.0
 offset_top = 375.0
 offset_right = 327.0
@@ -2638,3 +2638,8 @@ text = "Yellow"
 [connection signal="mouse_exited" from="CanvasLayer/Canvas/L10" to="CanvasLayer/Canvas/L10" method="_on_mouse_exited"]
 [connection signal="mouse_entered" from="CanvasLayer/Canvas/L9" to="CanvasLayer/Canvas/L9" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="CanvasLayer/Canvas/L9" to="CanvasLayer/Canvas/L9" method="_on_mouse_exited"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Black" to="CanvasLayer" method="_on_black_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/White" to="CanvasLayer" method="_on_white_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Red" to="CanvasLayer" method="_on_red_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Orange" to="CanvasLayer" method="_on_orange_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Yellow" to="CanvasLayer" method="_on_yellow_button_down"]
