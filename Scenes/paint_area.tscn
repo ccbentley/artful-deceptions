@@ -1,14 +1,32 @@
-[gd_scene load_steps=3 format=3 uid="uid://bbtjud34wcwwd"]
+[gd_scene load_steps=19 format=3 uid="uid://bbtjud34wcwwd"]
 
 [ext_resource type="Script" path="res://Scripts/paint_control.gd" id="1_5w6cq"]
 [ext_resource type="Script" path="res://Scripts/paint_hover.gd" id="2_8jfas"]
+[ext_resource type="Texture2D" uid="uid://ccbanxei3lhdc" path="res://Assets/Art/Colors/Normal/White.png" id="3_74gql"]
+[ext_resource type="Texture2D" uid="uid://d3juof7tornun" path="res://Assets/Art/CanvasStand.png" id="3_dvmy4"]
+[ext_resource type="Texture2D" uid="uid://bdh3xl6ly6ow3" path="res://Assets/Art/Colors/Normal/Black.png" id="4_joqx3"]
+[ext_resource type="Texture2D" uid="uid://6phlpgo3hwu0" path="res://Assets/Art/Colors/Normal/LightGray.png" id="5_p2n2i"]
+[ext_resource type="Texture2D" uid="uid://cwoevjd1sgwps" path="res://Assets/Art/Colors/Normal/Gray.png" id="6_7tjne"]
+[ext_resource type="Texture2D" uid="uid://kg464d4uk04n" path="res://Assets/Art/Colors/Normal/Red.png" id="7_podah"]
+[ext_resource type="Texture2D" uid="uid://bqys3fjblixs5" path="res://Assets/Art/Colors/Normal/Orange.png" id="8_eu0mb"]
+[ext_resource type="Texture2D" uid="uid://briaqot844rs7" path="res://Assets/Art/Colors/Normal/Yellow.png" id="9_kbff1"]
+[ext_resource type="Texture2D" uid="uid://cbvbm3af2pn2k" path="res://Assets/Art/Colors/Normal/Lime.png" id="10_bnra4"]
+[ext_resource type="Texture2D" uid="uid://ocu7mxu2pqbm" path="res://Assets/Art/Colors/Normal/Green.png" id="11_ilupj"]
+[ext_resource type="Texture2D" uid="uid://b4tt80ei8fdbm" path="res://Assets/Art/Colors/Normal/Cyan.png" id="12_4i2fv"]
+[ext_resource type="Texture2D" uid="uid://wh6hg6o3bwvv" path="res://Assets/Art/Colors/Normal/LightBlue.png" id="13_p0rg4"]
+[ext_resource type="Texture2D" uid="uid://bufou53bpsrdg" path="res://Assets/Art/Colors/Normal/Blue.png" id="14_xfu3l"]
+[ext_resource type="Texture2D" uid="uid://dxfgsp373m72s" path="res://Assets/Art/Colors/Normal/Purple.png" id="15_2wupl"]
+[ext_resource type="Texture2D" uid="uid://xr3mjkevn648" path="res://Assets/Art/Colors/Normal/Pink.png" id="16_avitq"]
+[ext_resource type="Texture2D" uid="uid://c7665bfkpfb57" path="res://Assets/Art/Colors/Normal/Brown.png" id="17_rflkf"]
 
 [node name="PaintArea" type="Node2D"]
+position = Vector2(14, 0)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 script = ExtResource("1_5w6cq")
 
 [node name="Canvas" type="Node2D" parent="CanvasLayer"]
+position = Vector2(14, 0)
 
 [node name="A1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -16,15 +34,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 99.0
-offset_right = 506.0
-offset_bottom = 139.0
+offset_left = 338.0
+offset_top = 8.0
+offset_right = 378.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -32,15 +51,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 139.0
-offset_right = 546.0
-offset_bottom = 179.0
+offset_left = 378.0
+offset_top = 48.0
+offset_right = 418.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -48,15 +68,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 139.0
-offset_right = 506.0
-offset_bottom = 179.0
+offset_left = 338.0
+offset_top = 48.0
+offset_right = 378.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -64,15 +85,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 99.0
-offset_right = 706.0
-offset_bottom = 139.0
+offset_left = 538.0
+offset_top = 8.0
+offset_right = 578.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -80,15 +102,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 99.0
-offset_right = 666.0
-offset_bottom = 139.0
+offset_left = 498.0
+offset_top = 8.0
+offset_right = 538.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -96,15 +119,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 99.0
-offset_right = 626.0
-offset_bottom = 139.0
+offset_left = 458.0
+offset_top = 8.0
+offset_right = 498.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -112,15 +136,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 99.0
-offset_right = 586.0
-offset_bottom = 139.0
+offset_left = 418.0
+offset_top = 8.0
+offset_right = 458.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -128,15 +153,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 99.0
-offset_right = 546.0
-offset_bottom = 139.0
+offset_left = 378.0
+offset_top = 8.0
+offset_right = 418.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -144,15 +170,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 179.0
-offset_right = 546.0
-offset_bottom = 219.0
+offset_left = 378.0
+offset_top = 88.0
+offset_right = 418.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -160,15 +187,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 179.0
-offset_right = 506.0
-offset_bottom = 219.0
+offset_left = 338.0
+offset_top = 88.0
+offset_right = 378.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -176,15 +204,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 139.0
-offset_right = 706.0
-offset_bottom = 179.0
+offset_left = 538.0
+offset_top = 48.0
+offset_right = 578.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -192,15 +221,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 139.0
-offset_right = 666.0
-offset_bottom = 179.0
+offset_left = 498.0
+offset_top = 48.0
+offset_right = 538.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -208,15 +238,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 139.0
-offset_right = 626.0
-offset_bottom = 179.0
+offset_left = 458.0
+offset_top = 48.0
+offset_right = 498.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -224,15 +255,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 139.0
-offset_right = 586.0
-offset_bottom = 179.0
+offset_left = 418.0
+offset_top = 48.0
+offset_right = 458.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -240,15 +272,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 259.0
-offset_right = 506.0
-offset_bottom = 299.0
+offset_left = 338.0
+offset_top = 168.0
+offset_right = 378.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -256,15 +289,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 219.0
-offset_right = 706.0
-offset_bottom = 259.0
+offset_left = 538.0
+offset_top = 128.0
+offset_right = 578.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -272,15 +306,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 219.0
-offset_right = 666.0
-offset_bottom = 259.0
+offset_left = 498.0
+offset_top = 128.0
+offset_right = 538.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -288,15 +323,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 219.0
-offset_right = 626.0
-offset_bottom = 259.0
+offset_left = 458.0
+offset_top = 128.0
+offset_right = 498.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -304,15 +340,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 219.0
-offset_right = 586.0
-offset_bottom = 259.0
+offset_left = 418.0
+offset_top = 128.0
+offset_right = 458.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -320,15 +357,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 219.0
-offset_right = 546.0
-offset_bottom = 259.0
+offset_left = 378.0
+offset_top = 128.0
+offset_right = 418.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -336,15 +374,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 219.0
-offset_right = 506.0
-offset_bottom = 259.0
+offset_left = 338.0
+offset_top = 128.0
+offset_right = 378.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -352,15 +391,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 179.0
-offset_right = 706.0
-offset_bottom = 219.0
+offset_left = 538.0
+offset_top = 88.0
+offset_right = 578.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -368,15 +408,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 179.0
-offset_right = 666.0
-offset_bottom = 219.0
+offset_left = 498.0
+offset_top = 88.0
+offset_right = 538.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -384,15 +425,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 179.0
-offset_right = 626.0
-offset_bottom = 219.0
+offset_left = 458.0
+offset_top = 88.0
+offset_right = 498.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -400,15 +442,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 179.0
-offset_right = 586.0
-offset_bottom = 219.0
+offset_left = 418.0
+offset_top = 88.0
+offset_right = 458.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -416,15 +459,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 299.0
-offset_right = 546.0
-offset_bottom = 339.0
+offset_left = 378.0
+offset_top = 208.0
+offset_right = 418.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -432,15 +476,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 299.0
-offset_right = 506.0
-offset_bottom = 339.0
+offset_left = 338.0
+offset_top = 208.0
+offset_right = 378.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -448,15 +493,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 259.0
-offset_right = 706.0
-offset_bottom = 299.0
+offset_left = 538.0
+offset_top = 168.0
+offset_right = 578.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -464,15 +510,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 259.0
-offset_right = 666.0
-offset_bottom = 299.0
+offset_left = 498.0
+offset_top = 168.0
+offset_right = 538.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -480,15 +527,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 259.0
-offset_right = 626.0
-offset_bottom = 299.0
+offset_left = 458.0
+offset_top = 168.0
+offset_right = 498.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -496,15 +544,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 259.0
-offset_right = 586.0
-offset_bottom = 299.0
+offset_left = 418.0
+offset_top = 168.0
+offset_right = 458.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -512,15 +561,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 259.0
-offset_right = 546.0
-offset_bottom = 299.0
+offset_left = 378.0
+offset_top = 168.0
+offset_right = 418.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -528,15 +578,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 299.0
-offset_right = 706.0
-offset_bottom = 339.0
+offset_left = 538.0
+offset_top = 208.0
+offset_right = 578.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -544,15 +595,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 299.0
-offset_right = 666.0
-offset_bottom = 339.0
+offset_left = 498.0
+offset_top = 208.0
+offset_right = 538.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -560,15 +612,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 299.0
-offset_right = 626.0
-offset_bottom = 339.0
+offset_left = 458.0
+offset_top = 208.0
+offset_right = 498.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -576,15 +629,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 299.0
-offset_right = 586.0
-offset_bottom = 339.0
+offset_left = 418.0
+offset_top = 208.0
+offset_right = 458.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -592,15 +646,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 99.0
-offset_right = 746.0
-offset_bottom = 139.0
+offset_left = 578.0
+offset_top = 8.0
+offset_right = 618.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -608,15 +663,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 139.0
-offset_right = 786.0
-offset_bottom = 179.0
+offset_left = 618.0
+offset_top = 48.0
+offset_right = 658.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -624,15 +680,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 139.0
-offset_right = 746.0
-offset_bottom = 179.0
+offset_left = 578.0
+offset_top = 48.0
+offset_right = 618.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -640,15 +697,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 99.0
-offset_right = 946.0
-offset_bottom = 139.0
+offset_left = 778.0
+offset_top = 8.0
+offset_right = 818.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -656,15 +714,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 99.0
-offset_right = 906.0
-offset_bottom = 139.0
+offset_left = 738.0
+offset_top = 8.0
+offset_right = 778.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -672,15 +731,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 99.0
-offset_right = 866.0
-offset_bottom = 139.0
+offset_left = 698.0
+offset_top = 8.0
+offset_right = 738.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -688,15 +748,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 99.0
-offset_right = 826.0
-offset_bottom = 139.0
+offset_left = 658.0
+offset_top = 8.0
+offset_right = 698.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="A8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -704,15 +765,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 99.0
-offset_right = 786.0
-offset_bottom = 139.0
+offset_left = 618.0
+offset_top = 8.0
+offset_right = 658.0
+offset_bottom = 48.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -720,15 +782,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 179.0
-offset_right = 786.0
-offset_bottom = 219.0
+offset_left = 618.0
+offset_top = 88.0
+offset_right = 658.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -736,15 +799,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 179.0
-offset_right = 746.0
-offset_bottom = 219.0
+offset_left = 578.0
+offset_top = 88.0
+offset_right = 618.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -752,15 +816,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 139.0
-offset_right = 946.0
-offset_bottom = 179.0
+offset_left = 778.0
+offset_top = 48.0
+offset_right = 818.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -768,15 +833,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 139.0
-offset_right = 906.0
-offset_bottom = 179.0
+offset_left = 738.0
+offset_top = 48.0
+offset_right = 778.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -784,15 +850,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 139.0
-offset_right = 866.0
-offset_bottom = 179.0
+offset_left = 698.0
+offset_top = 48.0
+offset_right = 738.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="B9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -800,15 +867,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 139.0
-offset_right = 826.0
-offset_bottom = 179.0
+offset_left = 658.0
+offset_top = 48.0
+offset_right = 698.0
+offset_bottom = 88.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -816,15 +884,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 259.0
-offset_right = 746.0
-offset_bottom = 299.0
+offset_left = 578.0
+offset_top = 168.0
+offset_right = 618.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -832,15 +901,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 219.0
-offset_right = 946.0
-offset_bottom = 259.0
+offset_left = 778.0
+offset_top = 128.0
+offset_right = 818.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -848,15 +918,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 219.0
-offset_right = 906.0
-offset_bottom = 259.0
+offset_left = 738.0
+offset_top = 128.0
+offset_right = 778.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -864,15 +935,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 219.0
-offset_right = 866.0
-offset_bottom = 259.0
+offset_left = 698.0
+offset_top = 128.0
+offset_right = 738.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -880,15 +952,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 219.0
-offset_right = 826.0
-offset_bottom = 259.0
+offset_left = 658.0
+offset_top = 128.0
+offset_right = 698.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -896,15 +969,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 219.0
-offset_right = 786.0
-offset_bottom = 259.0
+offset_left = 618.0
+offset_top = 128.0
+offset_right = 658.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="D7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -912,15 +986,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 219.0
-offset_right = 746.0
-offset_bottom = 259.0
+offset_left = 578.0
+offset_top = 128.0
+offset_right = 618.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -928,15 +1003,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 179.0
-offset_right = 946.0
-offset_bottom = 219.0
+offset_left = 778.0
+offset_top = 88.0
+offset_right = 818.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = -1
@@ -944,15 +1020,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.500868
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 179.0
-offset_right = 906.0
-offset_bottom = 219.0
+offset_left = 738.0
+offset_top = 88.0
+offset_right = 778.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -960,15 +1037,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 179.0
-offset_right = 866.0
-offset_bottom = 219.0
+offset_left = 698.0
+offset_top = 88.0
+offset_right = 738.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="C9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -976,15 +1054,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 179.0
-offset_right = 826.0
-offset_bottom = 219.0
+offset_left = 658.0
+offset_top = 88.0
+offset_right = 698.0
+offset_bottom = 128.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -992,15 +1071,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 299.0
-offset_right = 786.0
-offset_bottom = 339.0
+offset_left = 618.0
+offset_top = 208.0
+offset_right = 658.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1008,15 +1088,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 299.0
-offset_right = 746.0
-offset_bottom = 339.0
+offset_left = 578.0
+offset_top = 208.0
+offset_right = 618.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1024,15 +1105,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 259.0
-offset_right = 946.0
-offset_bottom = 299.0
+offset_left = 778.0
+offset_top = 168.0
+offset_right = 818.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1040,15 +1122,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 259.0
-offset_right = 906.0
-offset_bottom = 299.0
+offset_left = 738.0
+offset_top = 168.0
+offset_right = 778.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1056,15 +1139,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 259.0
-offset_right = 866.0
-offset_bottom = 299.0
+offset_left = 698.0
+offset_top = 168.0
+offset_right = 738.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1072,15 +1156,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 259.0
-offset_right = 826.0
-offset_bottom = 299.0
+offset_left = 658.0
+offset_top = 168.0
+offset_right = 698.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="E8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1088,15 +1173,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 259.0
-offset_right = 786.0
-offset_bottom = 299.0
+offset_left = 618.0
+offset_top = 168.0
+offset_right = 658.0
+offset_bottom = 208.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1104,15 +1190,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 299.0
-offset_right = 946.0
-offset_bottom = 339.0
+offset_left = 778.0
+offset_top = 208.0
+offset_right = 818.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1120,15 +1207,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 299.0
-offset_right = 906.0
-offset_bottom = 339.0
+offset_left = 738.0
+offset_top = 208.0
+offset_right = 778.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1136,15 +1224,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 299.0
-offset_right = 866.0
-offset_bottom = 339.0
+offset_left = 698.0
+offset_top = 208.0
+offset_right = 738.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="F9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1152,15 +1241,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 299.0
-offset_right = 826.0
-offset_bottom = 339.0
+offset_left = 658.0
+offset_top = 208.0
+offset_right = 698.0
+offset_bottom = 248.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1168,15 +1258,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 339.0
-offset_right = 506.0
-offset_bottom = 379.0
+offset_left = 338.0
+offset_top = 248.0
+offset_right = 378.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1184,15 +1275,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 379.0
-offset_right = 546.0
-offset_bottom = 419.0
+offset_left = 378.0
+offset_top = 288.0
+offset_right = 418.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1200,15 +1292,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 379.0
-offset_right = 506.0
-offset_bottom = 419.0
+offset_left = 338.0
+offset_top = 288.0
+offset_right = 378.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1216,15 +1309,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 339.0
-offset_right = 706.0
-offset_bottom = 379.0
+offset_left = 538.0
+offset_top = 248.0
+offset_right = 578.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1232,15 +1326,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 339.0
-offset_right = 666.0
-offset_bottom = 379.0
+offset_left = 498.0
+offset_top = 248.0
+offset_right = 538.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1248,15 +1343,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 339.0
-offset_right = 626.0
-offset_bottom = 379.0
+offset_left = 458.0
+offset_top = 248.0
+offset_right = 498.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1264,15 +1360,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 339.0
-offset_right = 586.0
-offset_bottom = 379.0
+offset_left = 418.0
+offset_top = 248.0
+offset_right = 458.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1280,15 +1377,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 339.0
-offset_right = 546.0
-offset_bottom = 379.0
+offset_left = 378.0
+offset_top = 248.0
+offset_right = 418.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1296,15 +1394,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 419.0
-offset_right = 546.0
-offset_bottom = 459.0
+offset_left = 378.0
+offset_top = 328.0
+offset_right = 418.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1312,15 +1411,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 419.0
-offset_right = 506.0
-offset_bottom = 459.0
+offset_left = 338.0
+offset_top = 328.0
+offset_right = 378.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1328,15 +1428,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 379.0
-offset_right = 706.0
-offset_bottom = 419.0
+offset_left = 538.0
+offset_top = 288.0
+offset_right = 578.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1344,15 +1445,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 379.0
-offset_right = 666.0
-offset_bottom = 419.0
+offset_left = 498.0
+offset_top = 288.0
+offset_right = 538.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1360,15 +1462,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 379.0
-offset_right = 626.0
-offset_bottom = 419.0
+offset_left = 458.0
+offset_top = 288.0
+offset_right = 498.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1376,15 +1479,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 379.0
-offset_right = 586.0
-offset_bottom = 419.0
+offset_left = 418.0
+offset_top = 288.0
+offset_right = 458.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1392,15 +1496,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 499.0
-offset_right = 506.0
-offset_bottom = 539.0
+offset_left = 338.0
+offset_top = 408.0
+offset_right = 378.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1408,15 +1513,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 459.0
-offset_right = 706.0
-offset_bottom = 499.0
+offset_left = 538.0
+offset_top = 368.0
+offset_right = 578.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1424,15 +1530,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 459.0
-offset_right = 666.0
-offset_bottom = 499.0
+offset_left = 498.0
+offset_top = 368.0
+offset_right = 538.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1440,15 +1547,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 459.0
-offset_right = 626.0
-offset_bottom = 499.0
+offset_left = 458.0
+offset_top = 368.0
+offset_right = 498.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1456,15 +1564,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 459.0
-offset_right = 586.0
-offset_bottom = 499.0
+offset_left = 418.0
+offset_top = 368.0
+offset_right = 458.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1472,15 +1581,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 459.0
-offset_right = 546.0
-offset_bottom = 499.0
+offset_left = 378.0
+offset_top = 368.0
+offset_right = 418.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1488,15 +1598,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 459.0
-offset_right = 506.0
-offset_bottom = 499.0
+offset_left = 338.0
+offset_top = 368.0
+offset_right = 378.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1504,15 +1615,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 419.0
-offset_right = 706.0
-offset_bottom = 459.0
+offset_left = 538.0
+offset_top = 328.0
+offset_right = 578.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1520,15 +1632,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 419.0
-offset_right = 666.0
-offset_bottom = 459.0
+offset_left = 498.0
+offset_top = 328.0
+offset_right = 538.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1536,15 +1649,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 419.0
-offset_right = 626.0
-offset_bottom = 459.0
+offset_left = 458.0
+offset_top = 328.0
+offset_right = 498.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1552,15 +1666,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 419.0
-offset_right = 586.0
-offset_bottom = 459.0
+offset_left = 418.0
+offset_top = 328.0
+offset_right = 458.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1568,15 +1683,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 539.0
-offset_right = 546.0
-offset_bottom = 579.0
+offset_left = 378.0
+offset_top = 448.0
+offset_right = 418.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1584,15 +1700,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 466.0
-offset_top = 539.0
-offset_right = 506.0
-offset_bottom = 579.0
+offset_left = 338.0
+offset_top = 448.0
+offset_right = 378.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1600,15 +1717,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 499.0
-offset_right = 706.0
-offset_bottom = 539.0
+offset_left = 538.0
+offset_top = 408.0
+offset_right = 578.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1616,15 +1734,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 499.0
-offset_right = 666.0
-offset_bottom = 539.0
+offset_left = 498.0
+offset_top = 408.0
+offset_right = 538.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1632,15 +1751,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 499.0
-offset_right = 626.0
-offset_bottom = 539.0
+offset_left = 458.0
+offset_top = 408.0
+offset_right = 498.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1648,15 +1768,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 499.0
-offset_right = 586.0
-offset_bottom = 539.0
+offset_left = 418.0
+offset_top = 408.0
+offset_right = 458.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1664,15 +1785,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 506.0
-offset_top = 499.0
-offset_right = 546.0
-offset_bottom = 539.0
+offset_left = 378.0
+offset_top = 408.0
+offset_right = 418.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1680,15 +1802,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 666.0
-offset_top = 539.0
-offset_right = 706.0
-offset_bottom = 579.0
+offset_left = 538.0
+offset_top = 448.0
+offset_right = 578.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1696,15 +1819,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 626.0
-offset_top = 539.0
-offset_right = 666.0
-offset_bottom = 579.0
+offset_left = 498.0
+offset_top = 448.0
+offset_right = 538.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1712,15 +1836,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 586.0
-offset_top = 539.0
-offset_right = 626.0
-offset_bottom = 579.0
+offset_left = 458.0
+offset_top = 448.0
+offset_right = 498.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1728,15 +1853,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 546.0
-offset_top = 539.0
-offset_right = 586.0
-offset_bottom = 579.0
+offset_left = 418.0
+offset_top = 448.0
+offset_right = 458.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1744,15 +1870,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 339.0
-offset_right = 746.0
-offset_bottom = 379.0
+offset_left = 578.0
+offset_top = 248.0
+offset_right = 618.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1760,15 +1887,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 379.0
-offset_right = 786.0
-offset_bottom = 419.0
+offset_left = 618.0
+offset_top = 288.0
+offset_right = 658.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1776,15 +1904,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 379.0
-offset_right = 746.0
-offset_bottom = 419.0
+offset_left = 578.0
+offset_top = 288.0
+offset_right = 618.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1792,15 +1921,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 339.0
-offset_right = 946.0
-offset_bottom = 379.0
+offset_left = 778.0
+offset_top = 248.0
+offset_right = 818.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1808,15 +1938,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 339.0
-offset_right = 906.0
-offset_bottom = 379.0
+offset_left = 738.0
+offset_top = 248.0
+offset_right = 778.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1824,15 +1955,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 339.0
-offset_right = 866.0
-offset_bottom = 379.0
+offset_left = 698.0
+offset_top = 248.0
+offset_right = 738.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1840,15 +1972,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 339.0
-offset_right = 826.0
-offset_bottom = 379.0
+offset_left = 658.0
+offset_top = 248.0
+offset_right = 698.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="G8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1856,15 +1989,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 339.0
-offset_right = 786.0
-offset_bottom = 379.0
+offset_left = 618.0
+offset_top = 248.0
+offset_right = 658.0
+offset_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1872,15 +2006,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 419.0
-offset_right = 786.0
-offset_bottom = 459.0
+offset_left = 618.0
+offset_top = 328.0
+offset_right = 658.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1888,15 +2023,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 419.0
-offset_right = 746.0
-offset_bottom = 459.0
+offset_left = 578.0
+offset_top = 328.0
+offset_right = 618.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1904,15 +2040,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 379.0
-offset_right = 946.0
-offset_bottom = 419.0
+offset_left = 778.0
+offset_top = 288.0
+offset_right = 818.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1920,15 +2057,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 379.0
-offset_right = 906.0
-offset_bottom = 419.0
+offset_left = 738.0
+offset_top = 288.0
+offset_right = 778.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1936,15 +2074,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 379.0
-offset_right = 866.0
-offset_bottom = 419.0
+offset_left = 698.0
+offset_top = 288.0
+offset_right = 738.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="H9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1952,15 +2091,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 379.0
-offset_right = 826.0
-offset_bottom = 419.0
+offset_left = 658.0
+offset_top = 288.0
+offset_right = 698.0
+offset_bottom = 328.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1968,15 +2108,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 499.0
-offset_right = 746.0
-offset_bottom = 539.0
+offset_left = 578.0
+offset_top = 408.0
+offset_right = 618.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -1984,15 +2125,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 459.0
-offset_right = 946.0
-offset_bottom = 499.0
+offset_left = 778.0
+offset_top = 368.0
+offset_right = 818.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2000,15 +2142,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 459.0
-offset_right = 906.0
-offset_bottom = 499.0
+offset_left = 738.0
+offset_top = 368.0
+offset_right = 778.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2016,15 +2159,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 459.0
-offset_right = 866.0
-offset_bottom = 499.0
+offset_left = 698.0
+offset_top = 368.0
+offset_right = 738.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2032,15 +2176,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 459.0
-offset_right = 826.0
-offset_bottom = 499.0
+offset_left = 658.0
+offset_top = 368.0
+offset_right = 698.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2048,15 +2193,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 459.0
-offset_right = 786.0
-offset_bottom = 499.0
+offset_left = 618.0
+offset_top = 368.0
+offset_right = 658.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="J7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2064,15 +2210,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 459.0
-offset_right = 746.0
-offset_bottom = 499.0
+offset_left = 578.0
+offset_top = 368.0
+offset_right = 618.0
+offset_bottom = 408.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2080,15 +2227,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 419.0
-offset_right = 946.0
-offset_bottom = 459.0
+offset_left = 778.0
+offset_top = 328.0
+offset_right = 818.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2096,15 +2244,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 419.0
-offset_right = 906.0
-offset_bottom = 459.0
+offset_left = 738.0
+offset_top = 328.0
+offset_right = 778.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2112,15 +2261,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 419.0
-offset_right = 866.0
-offset_bottom = 459.0
+offset_left = 698.0
+offset_top = 328.0
+offset_right = 738.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="I9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2128,15 +2278,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 419.0
-offset_right = 826.0
-offset_bottom = 459.0
+offset_left = 658.0
+offset_top = 328.0
+offset_right = 698.0
+offset_bottom = 368.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2144,15 +2295,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 539.0
-offset_right = 786.0
-offset_bottom = 579.0
+offset_left = 618.0
+offset_top = 448.0
+offset_right = 658.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2160,15 +2312,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 706.0
-offset_top = 539.0
-offset_right = 746.0
-offset_bottom = 579.0
+offset_left = 578.0
+offset_top = 448.0
+offset_right = 618.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2176,15 +2329,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 499.0
-offset_right = 946.0
-offset_bottom = 539.0
+offset_left = 778.0
+offset_top = 408.0
+offset_right = 818.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2192,15 +2346,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 499.0
-offset_right = 906.0
-offset_bottom = 539.0
+offset_left = 738.0
+offset_top = 408.0
+offset_right = 778.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2208,15 +2363,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 499.0
-offset_right = 866.0
-offset_bottom = 539.0
+offset_left = 698.0
+offset_top = 408.0
+offset_right = 738.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2224,15 +2380,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 499.0
-offset_right = 826.0
-offset_bottom = 539.0
+offset_left = 658.0
+offset_top = 408.0
+offset_right = 698.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="K8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2240,15 +2397,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 746.0
-offset_top = 499.0
-offset_right = 786.0
-offset_bottom = 539.0
+offset_left = 618.0
+offset_top = 408.0
+offset_right = 658.0
+offset_bottom = 448.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2256,15 +2414,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 906.0
-offset_top = 539.0
-offset_right = 946.0
-offset_bottom = 579.0
+offset_left = 778.0
+offset_top = 448.0
+offset_right = 818.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2272,15 +2431,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 866.0
-offset_top = 539.0
-offset_right = 906.0
-offset_bottom = 579.0
+offset_left = 738.0
+offset_top = 448.0
+offset_right = 778.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2288,15 +2448,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 826.0
-offset_top = 539.0
-offset_right = 866.0
-offset_bottom = 579.0
+offset_left = 698.0
+offset_top = 448.0
+offset_right = 738.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="L9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
 anchors_preset = 8
@@ -2304,52 +2465,264 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 786.0
-offset_top = 539.0
-offset_right = 826.0
-offset_bottom = 579.0
+offset_left = 658.0
+offset_top = 448.0
+offset_right = 698.0
+offset_bottom = 488.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 script = ExtResource("2_8jfas")
+metadata/_edit_use_anchors_ = true
 
 [node name="Buttons" type="Node2D" parent="CanvasLayer"]
+position = Vector2(14, 0)
 
-[node name="Black" type="Button" parent="CanvasLayer/Buttons"]
-offset_left = 275.0
-offset_top = 191.0
-offset_right = 325.0
-offset_bottom = 222.0
-text = "Black"
+[node name="Done" type="Button" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 236.0
+offset_top = 515.0
+offset_right = 295.0
+offset_bottom = 546.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Done
+"
 
-[node name="White" type="Button" parent="CanvasLayer/Buttons"]
-offset_left = 274.0
-offset_top = 231.0
-offset_right = 324.0
-offset_bottom = 262.0
-text = "White"
+[node name="White" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 232.0
+offset_top = 30.0
+offset_right = 272.0
+offset_bottom = 70.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("3_74gql")
+stretch_mode = 0
 
-[node name="Red" type="Button" parent="CanvasLayer/Buttons"]
-offset_left = 273.0
-offset_top = 278.0
-offset_right = 327.0
-offset_bottom = 309.0
-text = "Red"
+[node name="Black" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 232.0
+offset_top = 76.0
+offset_right = 272.0
+offset_bottom = 116.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("4_joqx3")
+stretch_mode = 0
 
-[node name="Orange" type="Button" parent="CanvasLayer/Buttons"]
-offset_left = 263.0
-offset_top = 328.0
-offset_right = 329.0
-offset_bottom = 359.0
-text = "Orange"
+[node name="LightGray" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 232.0
+offset_top = 122.0
+offset_right = 272.0
+offset_bottom = 162.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("5_p2n2i")
+stretch_mode = 0
 
-[node name="Yellow" type="Button" parent="CanvasLayer/Buttons"]
-offset_left = 268.0
-offset_top = 375.0
-offset_right = 327.0
-offset_bottom = 406.0
-text = "Yellow"
+[node name="Gray" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 232.0
+offset_top = 167.0
+offset_right = 272.0
+offset_bottom = 207.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("6_7tjne")
+stretch_mode = 0
+
+[node name="Red" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 232.0
+offset_top = 212.0
+offset_right = 272.0
+offset_bottom = 252.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("7_podah")
+stretch_mode = 0
+
+[node name="Orange" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 232.0
+offset_top = 258.0
+offset_right = 272.0
+offset_bottom = 298.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("8_eu0mb")
+stretch_mode = 0
+
+[node name="Yellow" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 232.0
+offset_top = 304.0
+offset_right = 272.0
+offset_bottom = 344.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("9_kbff1")
+stretch_mode = 0
+
+[node name="Lime" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 232.0
+offset_top = 351.0
+offset_right = 272.0
+offset_bottom = 391.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("10_bnra4")
+stretch_mode = 0
+
+[node name="Green" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 30.0
+offset_right = 319.0
+offset_bottom = 70.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("11_ilupj")
+stretch_mode = 0
+
+[node name="Cyan" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 76.0
+offset_right = 319.0
+offset_bottom = 116.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("12_4i2fv")
+stretch_mode = 0
+
+[node name="LightBlue" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 122.0
+offset_right = 319.0
+offset_bottom = 162.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("13_p0rg4")
+stretch_mode = 0
+
+[node name="Blue" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 167.0
+offset_right = 319.0
+offset_bottom = 207.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("14_xfu3l")
+stretch_mode = 0
+
+[node name="Purple" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 212.0
+offset_right = 319.0
+offset_bottom = 252.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("15_2wupl")
+stretch_mode = 0
+
+[node name="Pink" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 258.0
+offset_right = 319.0
+offset_bottom = 298.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("16_avitq")
+stretch_mode = 0
+
+[node name="Brown" type="TextureButton" parent="CanvasLayer/Buttons"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 279.0
+offset_top = 304.0
+offset_right = 319.0
+offset_bottom = 344.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("17_rflkf")
+stretch_mode = 0
+
+[node name="CanvasStand" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(600, 543)
+scale = Vector2(10, 10)
+texture = ExtResource("3_dvmy4")
 
 [connection signal="mouse_entered" from="CanvasLayer/Canvas/A1" to="CanvasLayer/Canvas/A1" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="CanvasLayer/Canvas/A1" to="CanvasLayer/Canvas/A1" method="_on_mouse_exited"]
@@ -2638,8 +3011,19 @@ text = "Yellow"
 [connection signal="mouse_exited" from="CanvasLayer/Canvas/L10" to="CanvasLayer/Canvas/L10" method="_on_mouse_exited"]
 [connection signal="mouse_entered" from="CanvasLayer/Canvas/L9" to="CanvasLayer/Canvas/L9" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="CanvasLayer/Canvas/L9" to="CanvasLayer/Canvas/L9" method="_on_mouse_exited"]
-[connection signal="button_down" from="CanvasLayer/Buttons/Black" to="CanvasLayer" method="_on_black_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Done" to="CanvasLayer" method="_on_done_button_down"]
 [connection signal="button_down" from="CanvasLayer/Buttons/White" to="CanvasLayer" method="_on_white_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Black" to="CanvasLayer" method="_on_black_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/LightGray" to="CanvasLayer" method="_on_lightgray_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Gray" to="CanvasLayer" method="_on_gray_button_down"]
 [connection signal="button_down" from="CanvasLayer/Buttons/Red" to="CanvasLayer" method="_on_red_button_down"]
 [connection signal="button_down" from="CanvasLayer/Buttons/Orange" to="CanvasLayer" method="_on_orange_button_down"]
 [connection signal="button_down" from="CanvasLayer/Buttons/Yellow" to="CanvasLayer" method="_on_yellow_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Lime" to="CanvasLayer" method="_on_lime_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Green" to="CanvasLayer" method="_on_green_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Cyan" to="CanvasLayer" method="_on_cyan_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/LightBlue" to="CanvasLayer" method="_on_lightblue_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Blue" to="CanvasLayer" method="_on_blue_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Purple" to="CanvasLayer" method="_on_purple_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Pink" to="CanvasLayer" method="_on_pink_button_down"]
+[connection signal="button_down" from="CanvasLayer/Buttons/Brown" to="CanvasLayer" method="_on_brown_button_down"]

@@ -1,3 +1,3 @@
 extends Node
 
-var tree = []
+var cookie = []
