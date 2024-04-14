@@ -1,23 +1,38 @@
-[gd_scene load_steps=19 format=3 uid="uid://bbtjud34wcwwd"]
+[gd_scene load_steps=34 format=3 uid="uid://bbtjud34wcwwd"]
 
 [ext_resource type="Script" path="res://Scripts/paint_control.gd" id="1_5w6cq"]
 [ext_resource type="Script" path="res://Scripts/paint_hover.gd" id="2_8jfas"]
 [ext_resource type="Texture2D" uid="uid://ccbanxei3lhdc" path="res://Assets/Art/Colors/Normal/White.png" id="3_74gql"]
 [ext_resource type="Texture2D" uid="uid://d3juof7tornun" path="res://Assets/Art/CanvasStand.png" id="3_dvmy4"]
+[ext_resource type="Texture2D" uid="uid://k7tdloeggnt4" path="res://Assets/Art/Colors/Selected/White.png" id="4_aus52"]
 [ext_resource type="Texture2D" uid="uid://bdh3xl6ly6ow3" path="res://Assets/Art/Colors/Normal/Black.png" id="4_joqx3"]
 [ext_resource type="Texture2D" uid="uid://6phlpgo3hwu0" path="res://Assets/Art/Colors/Normal/LightGray.png" id="5_p2n2i"]
 [ext_resource type="Texture2D" uid="uid://cwoevjd1sgwps" path="res://Assets/Art/Colors/Normal/Gray.png" id="6_7tjne"]
+[ext_resource type="Texture2D" uid="uid://b0hj0inv6hf1e" path="res://Assets/Art/Colors/Selected/Black.png" id="6_nef7i"]
 [ext_resource type="Texture2D" uid="uid://kg464d4uk04n" path="res://Assets/Art/Colors/Normal/Red.png" id="7_podah"]
 [ext_resource type="Texture2D" uid="uid://bqys3fjblixs5" path="res://Assets/Art/Colors/Normal/Orange.png" id="8_eu0mb"]
+[ext_resource type="Texture2D" uid="uid://7scm86gvoi8n" path="res://Assets/Art/Colors/Selected/LightGray.png" id="8_nok2a"]
 [ext_resource type="Texture2D" uid="uid://briaqot844rs7" path="res://Assets/Art/Colors/Normal/Yellow.png" id="9_kbff1"]
+[ext_resource type="Texture2D" uid="uid://cp2k3kewe8pc6" path="res://Assets/Art/Colors/Selected/Gray.png" id="10_b2w20"]
 [ext_resource type="Texture2D" uid="uid://cbvbm3af2pn2k" path="res://Assets/Art/Colors/Normal/Lime.png" id="10_bnra4"]
 [ext_resource type="Texture2D" uid="uid://ocu7mxu2pqbm" path="res://Assets/Art/Colors/Normal/Green.png" id="11_ilupj"]
+[ext_resource type="Texture2D" uid="uid://cm1em3us01iy3" path="res://Assets/Art/Colors/Selected/Red.png" id="12_3lj4l"]
 [ext_resource type="Texture2D" uid="uid://b4tt80ei8fdbm" path="res://Assets/Art/Colors/Normal/Cyan.png" id="12_4i2fv"]
 [ext_resource type="Texture2D" uid="uid://wh6hg6o3bwvv" path="res://Assets/Art/Colors/Normal/LightBlue.png" id="13_p0rg4"]
+[ext_resource type="Texture2D" uid="uid://dfyi7dqnkkufn" path="res://Assets/Art/Colors/Selected/Orange.png" id="14_ls184"]
 [ext_resource type="Texture2D" uid="uid://bufou53bpsrdg" path="res://Assets/Art/Colors/Normal/Blue.png" id="14_xfu3l"]
 [ext_resource type="Texture2D" uid="uid://dxfgsp373m72s" path="res://Assets/Art/Colors/Normal/Purple.png" id="15_2wupl"]
 [ext_resource type="Texture2D" uid="uid://xr3mjkevn648" path="res://Assets/Art/Colors/Normal/Pink.png" id="16_avitq"]
+[ext_resource type="Texture2D" uid="uid://cxcutv3p4y253" path="res://Assets/Art/Colors/Selected/Yellow.png" id="16_dv1rj"]
 [ext_resource type="Texture2D" uid="uid://c7665bfkpfb57" path="res://Assets/Art/Colors/Normal/Brown.png" id="17_rflkf"]
+[ext_resource type="Texture2D" uid="uid://dae36skl6mbjn" path="res://Assets/Art/Colors/Selected/Lime.png" id="18_24lf1"]
+[ext_resource type="Texture2D" uid="uid://cdxurptkpf8qd" path="res://Assets/Art/Colors/Selected/Green.png" id="20_l1u26"]
+[ext_resource type="Texture2D" uid="uid://d3yclg2j7km4g" path="res://Assets/Art/Colors/Selected/Cyan.png" id="22_iyxbh"]
+[ext_resource type="Texture2D" uid="uid://ku5ymwim4k8u" path="res://Assets/Art/Colors/Selected/LightBlue.png" id="24_kioc5"]
+[ext_resource type="Texture2D" uid="uid://c34wcdw3mypdc" path="res://Assets/Art/Colors/Selected/Blue.png" id="26_aiugl"]
+[ext_resource type="Texture2D" uid="uid://wedyqawjs16r" path="res://Assets/Art/Colors/Selected/Purple.png" id="28_eq8sg"]
+[ext_resource type="Texture2D" uid="uid://dcgrbejv5f6uf" path="res://Assets/Art/Colors/Selected/Pink.png" id="30_8o5fl"]
+[ext_resource type="Texture2D" uid="uid://c6c6x5nvquehs" path="res://Assets/Art/Colors/Selected/Brown.png" id="32_n6ccq"]
 
 [node name="PaintArea" type="Node2D"]
 position = Vector2(14, 0)
@@ -2485,10 +2500,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 236.0
-offset_top = 515.0
-offset_right = 295.0
-offset_bottom = 546.0
+offset_left = 246.0
+offset_top = 431.0
+offset_right = 305.0
+offset_bottom = 462.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Done
@@ -2507,6 +2522,8 @@ offset_bottom = 70.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("3_74gql")
+texture_pressed = ExtResource("4_aus52")
+texture_hover = ExtResource("4_aus52")
 stretch_mode = 0
 
 [node name="Black" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2522,6 +2539,8 @@ offset_bottom = 116.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("4_joqx3")
+texture_pressed = ExtResource("6_nef7i")
+texture_hover = ExtResource("6_nef7i")
 stretch_mode = 0
 
 [node name="LightGray" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2537,6 +2556,8 @@ offset_bottom = 162.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("5_p2n2i")
+texture_pressed = ExtResource("8_nok2a")
+texture_hover = ExtResource("8_nok2a")
 stretch_mode = 0
 
 [node name="Gray" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2552,6 +2573,8 @@ offset_bottom = 207.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("6_7tjne")
+texture_pressed = ExtResource("10_b2w20")
+texture_hover = ExtResource("10_b2w20")
 stretch_mode = 0
 
 [node name="Red" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2567,6 +2590,8 @@ offset_bottom = 252.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("7_podah")
+texture_pressed = ExtResource("12_3lj4l")
+texture_hover = ExtResource("12_3lj4l")
 stretch_mode = 0
 
 [node name="Orange" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2582,6 +2607,8 @@ offset_bottom = 298.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("8_eu0mb")
+texture_pressed = ExtResource("14_ls184")
+texture_hover = ExtResource("14_ls184")
 stretch_mode = 0
 
 [node name="Yellow" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2597,6 +2624,8 @@ offset_bottom = 344.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("9_kbff1")
+texture_pressed = ExtResource("16_dv1rj")
+texture_hover = ExtResource("16_dv1rj")
 stretch_mode = 0
 
 [node name="Lime" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2612,6 +2641,8 @@ offset_bottom = 391.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("10_bnra4")
+texture_pressed = ExtResource("18_24lf1")
+texture_hover = ExtResource("18_24lf1")
 stretch_mode = 0
 
 [node name="Green" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2627,6 +2658,8 @@ offset_bottom = 70.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("11_ilupj")
+texture_pressed = ExtResource("20_l1u26")
+texture_hover = ExtResource("20_l1u26")
 stretch_mode = 0
 
 [node name="Cyan" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2642,6 +2675,8 @@ offset_bottom = 116.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("12_4i2fv")
+texture_pressed = ExtResource("22_iyxbh")
+texture_hover = ExtResource("22_iyxbh")
 stretch_mode = 0
 
 [node name="LightBlue" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2657,6 +2692,8 @@ offset_bottom = 162.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("13_p0rg4")
+texture_pressed = ExtResource("24_kioc5")
+texture_hover = ExtResource("24_kioc5")
 stretch_mode = 0
 
 [node name="Blue" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2672,6 +2709,8 @@ offset_bottom = 207.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("14_xfu3l")
+texture_pressed = ExtResource("26_aiugl")
+texture_hover = ExtResource("26_aiugl")
 stretch_mode = 0
 
 [node name="Purple" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2687,6 +2726,8 @@ offset_bottom = 252.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("15_2wupl")
+texture_pressed = ExtResource("28_eq8sg")
+texture_hover = ExtResource("28_eq8sg")
 stretch_mode = 0
 
 [node name="Pink" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2702,6 +2743,8 @@ offset_bottom = 298.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("16_avitq")
+texture_pressed = ExtResource("30_8o5fl")
+texture_hover = ExtResource("30_8o5fl")
 stretch_mode = 0
 
 [node name="Brown" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -2717,6 +2760,8 @@ offset_bottom = 344.0
 grow_horizontal = 2
 grow_vertical = 2
 texture_normal = ExtResource("17_rflkf")
+texture_pressed = ExtResource("32_n6ccq")
+texture_hover = ExtResource("32_n6ccq")
 stretch_mode = 0
 
 [node name="CanvasStand" type="Sprite2D" parent="CanvasLayer"]
