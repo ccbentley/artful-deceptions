@@ -28,3 +28,4 @@ import/blender/enabled=false
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.976471, 0.964706, 0.933333, 1)
