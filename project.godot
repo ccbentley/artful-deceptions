@@ -15,6 +15,10 @@ run/main_scene="res://Scenes/paint_area.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://Assets/Art/icon.svg"
 
+[autoload]
+
+Drawings="*res://Scripts/arrays.gd"
+
 [display]
 
 window/stretch/mode="canvas_items"
