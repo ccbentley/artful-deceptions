@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Game Jam Forge"
+config/name="Artful Deceptions"
 run/main_scene="res://Scenes/paint_area.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://Assets/Art/icon.svg"
