@@ -9,7 +9,7 @@ var current_drawing = null
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
-		if(hovered_pixel != null):
+		if(hovered_pixel != null and !anim.is_playing()):
 			hovered_pixel.modulate = selected_color
 
 var color_array = []
@@ -45,7 +45,7 @@ func draw_fixed(fixed_drawing):
 		color_rect.modulate = color
 
 func start_round():
-	$AnimationPlayer.play("start")
+	anim.play("start")
 
 func _on_done_button_down():
 	convert_to_array()
