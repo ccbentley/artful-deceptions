@@ -1,38 +1,38 @@
-[gd_scene load_steps=38 format=3 uid="uid://bbtjud34wcwwd"]
+[gd_scene load_steps=40 format=3 uid="uid://bbtjud34wcwwd"]
 
-[ext_resource type="Script" path="res://Scripts/paint_control.gd" id="1_5w6cq"]
-[ext_resource type="Script" path="res://Scripts/paint_hover.gd" id="2_8jfas"]
-[ext_resource type="Texture2D" uid="uid://ccbanxei3lhdc" path="res://Assets/Art/Colors/Normal/White.png" id="3_74gql"]
-[ext_resource type="Texture2D" uid="uid://d3juof7tornun" path="res://Assets/Art/CanvasStand.png" id="3_dvmy4"]
-[ext_resource type="Texture2D" uid="uid://k7tdloeggnt4" path="res://Assets/Art/Colors/Selected/White.png" id="4_aus52"]
-[ext_resource type="Texture2D" uid="uid://bdh3xl6ly6ow3" path="res://Assets/Art/Colors/Normal/Black.png" id="4_joqx3"]
-[ext_resource type="Texture2D" uid="uid://6phlpgo3hwu0" path="res://Assets/Art/Colors/Normal/LightGray.png" id="5_p2n2i"]
-[ext_resource type="Texture2D" uid="uid://cwoevjd1sgwps" path="res://Assets/Art/Colors/Normal/Gray.png" id="6_7tjne"]
-[ext_resource type="Texture2D" uid="uid://b0hj0inv6hf1e" path="res://Assets/Art/Colors/Selected/Black.png" id="6_nef7i"]
-[ext_resource type="Texture2D" uid="uid://kg464d4uk04n" path="res://Assets/Art/Colors/Normal/Red.png" id="7_podah"]
-[ext_resource type="Texture2D" uid="uid://bqys3fjblixs5" path="res://Assets/Art/Colors/Normal/Orange.png" id="8_eu0mb"]
-[ext_resource type="Texture2D" uid="uid://7scm86gvoi8n" path="res://Assets/Art/Colors/Selected/LightGray.png" id="8_nok2a"]
-[ext_resource type="Texture2D" uid="uid://briaqot844rs7" path="res://Assets/Art/Colors/Normal/Yellow.png" id="9_kbff1"]
-[ext_resource type="Texture2D" uid="uid://cp2k3kewe8pc6" path="res://Assets/Art/Colors/Selected/Gray.png" id="10_b2w20"]
-[ext_resource type="Texture2D" uid="uid://cbvbm3af2pn2k" path="res://Assets/Art/Colors/Normal/Lime.png" id="10_bnra4"]
-[ext_resource type="Texture2D" uid="uid://ocu7mxu2pqbm" path="res://Assets/Art/Colors/Normal/Green.png" id="11_ilupj"]
-[ext_resource type="Texture2D" uid="uid://cm1em3us01iy3" path="res://Assets/Art/Colors/Selected/Red.png" id="12_3lj4l"]
-[ext_resource type="Texture2D" uid="uid://b4tt80ei8fdbm" path="res://Assets/Art/Colors/Normal/Cyan.png" id="12_4i2fv"]
-[ext_resource type="Texture2D" uid="uid://wh6hg6o3bwvv" path="res://Assets/Art/Colors/Normal/LightBlue.png" id="13_p0rg4"]
-[ext_resource type="Texture2D" uid="uid://dfyi7dqnkkufn" path="res://Assets/Art/Colors/Selected/Orange.png" id="14_ls184"]
-[ext_resource type="Texture2D" uid="uid://bufou53bpsrdg" path="res://Assets/Art/Colors/Normal/Blue.png" id="14_xfu3l"]
-[ext_resource type="Texture2D" uid="uid://dxfgsp373m72s" path="res://Assets/Art/Colors/Normal/Purple.png" id="15_2wupl"]
-[ext_resource type="Texture2D" uid="uid://xr3mjkevn648" path="res://Assets/Art/Colors/Normal/Pink.png" id="16_avitq"]
-[ext_resource type="Texture2D" uid="uid://cxcutv3p4y253" path="res://Assets/Art/Colors/Selected/Yellow.png" id="16_dv1rj"]
-[ext_resource type="Texture2D" uid="uid://c7665bfkpfb57" path="res://Assets/Art/Colors/Normal/Brown.png" id="17_rflkf"]
-[ext_resource type="Texture2D" uid="uid://dae36skl6mbjn" path="res://Assets/Art/Colors/Selected/Lime.png" id="18_24lf1"]
-[ext_resource type="Texture2D" uid="uid://cdxurptkpf8qd" path="res://Assets/Art/Colors/Selected/Green.png" id="20_l1u26"]
-[ext_resource type="Texture2D" uid="uid://d3yclg2j7km4g" path="res://Assets/Art/Colors/Selected/Cyan.png" id="22_iyxbh"]
-[ext_resource type="Texture2D" uid="uid://ku5ymwim4k8u" path="res://Assets/Art/Colors/Selected/LightBlue.png" id="24_kioc5"]
-[ext_resource type="Texture2D" uid="uid://c34wcdw3mypdc" path="res://Assets/Art/Colors/Selected/Blue.png" id="26_aiugl"]
-[ext_resource type="Texture2D" uid="uid://wedyqawjs16r" path="res://Assets/Art/Colors/Selected/Purple.png" id="28_eq8sg"]
-[ext_resource type="Texture2D" uid="uid://dcgrbejv5f6uf" path="res://Assets/Art/Colors/Selected/Pink.png" id="30_8o5fl"]
-[ext_resource type="Texture2D" uid="uid://c6c6x5nvquehs" path="res://Assets/Art/Colors/Selected/Brown.png" id="32_n6ccq"]
+[ext_resource type="Script" path="res://Scripts/paint_control.gd" id="1_q2l1k"]
+[ext_resource type="Script" path="res://Scripts/paint_hover.gd" id="2_jn0fs"]
+[ext_resource type="Texture2D" uid="uid://ccbanxei3lhdc" path="res://Assets/Art/Colors/Normal/White.png" id="3_5mew6"]
+[ext_resource type="Texture2D" uid="uid://k7tdloeggnt4" path="res://Assets/Art/Colors/Selected/White.png" id="4_bln5v"]
+[ext_resource type="Texture2D" uid="uid://bdh3xl6ly6ow3" path="res://Assets/Art/Colors/Normal/Black.png" id="5_i6lkx"]
+[ext_resource type="Texture2D" uid="uid://b0hj0inv6hf1e" path="res://Assets/Art/Colors/Selected/Black.png" id="6_tsh3f"]
+[ext_resource type="Texture2D" uid="uid://6phlpgo3hwu0" path="res://Assets/Art/Colors/Normal/LightGray.png" id="7_cyb6k"]
+[ext_resource type="Texture2D" uid="uid://7scm86gvoi8n" path="res://Assets/Art/Colors/Selected/LightGray.png" id="8_sbyit"]
+[ext_resource type="Texture2D" uid="uid://cwoevjd1sgwps" path="res://Assets/Art/Colors/Normal/Gray.png" id="9_3n3lb"]
+[ext_resource type="Texture2D" uid="uid://cp2k3kewe8pc6" path="res://Assets/Art/Colors/Selected/Gray.png" id="10_03gbt"]
+[ext_resource type="Texture2D" uid="uid://kg464d4uk04n" path="res://Assets/Art/Colors/Normal/Red.png" id="11_b6fis"]
+[ext_resource type="Texture2D" uid="uid://cm1em3us01iy3" path="res://Assets/Art/Colors/Selected/Red.png" id="12_ko5bk"]
+[ext_resource type="Texture2D" uid="uid://bqys3fjblixs5" path="res://Assets/Art/Colors/Normal/Orange.png" id="13_2hf8k"]
+[ext_resource type="Texture2D" uid="uid://dfyi7dqnkkufn" path="res://Assets/Art/Colors/Selected/Orange.png" id="14_sr45h"]
+[ext_resource type="Texture2D" uid="uid://briaqot844rs7" path="res://Assets/Art/Colors/Normal/Yellow.png" id="15_lqtcv"]
+[ext_resource type="Texture2D" uid="uid://cxcutv3p4y253" path="res://Assets/Art/Colors/Selected/Yellow.png" id="16_38g3k"]
+[ext_resource type="Texture2D" uid="uid://cbvbm3af2pn2k" path="res://Assets/Art/Colors/Normal/Lime.png" id="17_ubrmw"]
+[ext_resource type="Texture2D" uid="uid://dae36skl6mbjn" path="res://Assets/Art/Colors/Selected/Lime.png" id="18_emh4j"]
+[ext_resource type="Texture2D" uid="uid://ocu7mxu2pqbm" path="res://Assets/Art/Colors/Normal/Green.png" id="19_ku51f"]
+[ext_resource type="Texture2D" uid="uid://cdxurptkpf8qd" path="res://Assets/Art/Colors/Selected/Green.png" id="20_5y1ib"]
+[ext_resource type="Texture2D" uid="uid://b4tt80ei8fdbm" path="res://Assets/Art/Colors/Normal/Cyan.png" id="21_cvcwi"]
+[ext_resource type="Texture2D" uid="uid://d3yclg2j7km4g" path="res://Assets/Art/Colors/Selected/Cyan.png" id="22_m41iy"]
+[ext_resource type="Texture2D" uid="uid://wh6hg6o3bwvv" path="res://Assets/Art/Colors/Normal/LightBlue.png" id="23_svi1l"]
+[ext_resource type="Texture2D" uid="uid://ku5ymwim4k8u" path="res://Assets/Art/Colors/Selected/LightBlue.png" id="24_ivodf"]
+[ext_resource type="Texture2D" uid="uid://bufou53bpsrdg" path="res://Assets/Art/Colors/Normal/Blue.png" id="25_7tjf5"]
+[ext_resource type="Texture2D" uid="uid://c34wcdw3mypdc" path="res://Assets/Art/Colors/Selected/Blue.png" id="26_sym60"]
+[ext_resource type="Texture2D" uid="uid://dxfgsp373m72s" path="res://Assets/Art/Colors/Normal/Purple.png" id="27_kv5on"]
+[ext_resource type="Texture2D" uid="uid://wedyqawjs16r" path="res://Assets/Art/Colors/Selected/Purple.png" id="28_0k8pi"]
+[ext_resource type="Texture2D" uid="uid://xr3mjkevn648" path="res://Assets/Art/Colors/Normal/Pink.png" id="29_06enj"]
+[ext_resource type="Texture2D" uid="uid://dcgrbejv5f6uf" path="res://Assets/Art/Colors/Selected/Pink.png" id="30_4plja"]
+[ext_resource type="Texture2D" uid="uid://c7665bfkpfb57" path="res://Assets/Art/Colors/Normal/Brown.png" id="31_lve42"]
+[ext_resource type="Texture2D" uid="uid://c6c6x5nvquehs" path="res://Assets/Art/Colors/Selected/Brown.png" id="32_tiemh"]
+[ext_resource type="Texture2D" uid="uid://d3juof7tornun" path="res://Assets/Art/CanvasStand.png" id="33_vqj6d"]
 
 [sub_resource type="Animation" id="Animation_b35mh"]
 length = 0.001
@@ -51,143 +51,139 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Text:position")
+tracks/1/path = NodePath("Canvas:position")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(0, 0)]
+"values": [Vector2(206, 0)]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Fixed:visible")
+tracks/2/path = NodePath("CanvasStand:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [false]
+"values": [Vector2(560, 543)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Text:visible")
+tracks/3/path = NodePath("Buttons:position")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [false]
+"values": [Vector2(206, 0)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Canvas:position")
+tracks/4/path = NodePath("Buttons:modulate")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(206, 0)]
+"values": [Color(1, 1, 1, 1)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("CanvasStand:position")
+tracks/5/path = NodePath("Auction:position")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(560, 543)]
+"values": [Vector2(515, 0)]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
 tracks/6/enabled = true
-tracks/6/path = NodePath("Buttons:position")
+tracks/6/path = NodePath("Auction:modulate")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(206, 0)]
+"values": [Color(1, 1, 1, 0)]
 }
 tracks/7/type = "value"
 tracks/7/imported = false
 tracks/7/enabled = true
-tracks/7/path = NodePath("Buttons:modulate")
+tracks/7/path = NodePath("Fixed:modulate")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Color(1, 1, 1, 1)]
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Text/Accuracy:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1000, 451)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Text/Accuracy:modulate")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Text/Label:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1159, 502)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Text/Label:modulate")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
 }
 
-[sub_resource type="Animation" id="Animation_1sn2m"]
-resource_name = "start"
-length = 6.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Fixed:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.5, 4.1, 5, 5.5),
-"transitions": PackedFloat32Array(2, 2, 2, 2, 2),
-"update": 0,
-"values": [Vector2(120, -400), Vector2(120, 70), Vector2(120, 70), Vector2(120, 60), Vector2(120, -400)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Text:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0.5, 1, 4.1, 5),
-"transitions": PackedFloat32Array(2, 2, 2, 2),
-"update": 0,
-"values": [Vector2(0, 0), Vector2(-1075, 0), Vector2(-1075, 0), Vector2(0, 0)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Fixed:visible")
-tracks/2/interp = 0
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0, 5.6),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [true, false]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("Text:visible")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0, 5.6),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [true, false]
-}
-
-[sub_resource type="Animation" id="Animation_565o7"]
-resource_name = "end"
-length = 0.5
+[sub_resource type="Animation" id="Animation_07kro"]
+resource_name = "auction_end"
+length = 1.5
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -195,7 +191,144 @@ tracks/0/path = NodePath("Canvas:position")
 tracks/0/interp = 2
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.5),
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasStand:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Vector2(354, 543)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Buttons:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Buttons:modulate")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Auction:position")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(20, 0), Vector2(20, -450)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Auction:modulate")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Fixed:position")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(1000, 75), Vector2(440, 75)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Fixed:modulate")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Text/Accuracy:position")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0.4, 1.4),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(1000, 450), Vector2(550, 450)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Text/Accuracy:modulate")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0.4, 1.4),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/10/type = "method"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath(".")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(1.4),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"animate_score"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_565o7"]
+resource_name = "auction_start"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Canvas:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8),
 "transitions": PackedFloat32Array(2, 2),
 "update": 0,
 "values": [Vector2(206, 0), Vector2(0, 0)]
@@ -207,7 +340,7 @@ tracks/1/path = NodePath("CanvasStand:position")
 tracks/1/interp = 2
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.5),
+"times": PackedFloat32Array(0, 0.8),
 "transitions": PackedFloat32Array(2, 2),
 "update": 0,
 "values": [Vector2(560, 543), Vector2(354, 543)]
@@ -219,7 +352,7 @@ tracks/2/path = NodePath("Buttons:position")
 tracks/2/interp = 2
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.5),
+"times": PackedFloat32Array(0, 0.8),
 "transitions": PackedFloat32Array(2, 2),
 "update": 0,
 "values": [Vector2(206, 0), Vector2(0, 0)]
@@ -236,19 +369,221 @@ tracks/3/keys = {
 "update": 0,
 "values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
 }
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Auction:position")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(515, 0), Vector2(20, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Auction:modulate")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_f2khv"]
+resource_name = "round_reset"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Canvas:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasStand:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Vector2(354, 543)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Buttons:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Buttons:modulate")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Auction:position")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(20, 0), Vector2(20, -450)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Auction:modulate")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Fixed:position")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(1000, 75), Vector2(440, 75)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Fixed:modulate")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Text/Accuracy:position")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0.4, 1.4),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(1000, 451), Vector2(600, 451)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Text/Accuracy:modulate")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0.4, 1.4),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_1sn2m"]
+resource_name = "round_start"
+length = 6.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Fixed:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 4.1, 5, 5.5),
+"transitions": PackedFloat32Array(2, 2, 2, 2, 2),
+"update": 0,
+"values": [Vector2(120, -400), Vector2(120, 70), Vector2(120, 70), Vector2(120, 60), Vector2(120, -400)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Fixed:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 5, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Text/Label:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.5, 0.9, 4.4, 5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1166, 160), Vector2(825, 160), Vector2(825, 160), Vector2(1166, 160)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Text/Label:modulate")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.5, 0.9, 4.4, 5),
+"transitions": PackedFloat32Array(2, 2, 2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0q760"]
 _data = {
 "RESET": SubResource("Animation_b35mh"),
-"end": SubResource("Animation_565o7"),
-"start": SubResource("Animation_1sn2m")
+"auction_end": SubResource("Animation_07kro"),
+"auction_start": SubResource("Animation_565o7"),
+"round_reset": SubResource("Animation_f2khv"),
+"round_start": SubResource("Animation_1sn2m")
 }
 
-[node name="PaintArea" type="Node2D"]
+[node name="Game" type="Node2D"]
 position = Vector2(14, 0)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-script = ExtResource("1_5w6cq")
+script = ExtResource("1_q2l1k")
 
 [node name="Canvas" type="Node2D" parent="CanvasLayer"]
 position = Vector2(206, 0)
@@ -267,7 +602,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -284,7 +619,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -301,7 +636,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -318,7 +653,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -335,7 +670,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -352,7 +687,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -369,7 +704,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -386,7 +721,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -403,7 +738,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -420,7 +755,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -437,7 +772,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="A12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -454,7 +789,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -471,7 +806,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -488,7 +823,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -505,7 +840,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -522,7 +857,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -539,7 +874,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -556,7 +891,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -573,7 +908,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -590,7 +925,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -607,7 +942,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -624,7 +959,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -641,7 +976,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="B12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -658,7 +993,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -675,7 +1010,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -692,7 +1027,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -709,7 +1044,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -726,7 +1061,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -743,7 +1078,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -760,7 +1095,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -777,7 +1112,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -794,7 +1129,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -811,7 +1146,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -828,7 +1163,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -845,7 +1180,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="C12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -862,7 +1197,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -879,7 +1214,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -896,7 +1231,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -913,7 +1248,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -930,7 +1265,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -947,7 +1282,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -964,7 +1299,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -981,7 +1316,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -998,7 +1333,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1015,7 +1350,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1032,7 +1367,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1049,7 +1384,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="D12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1066,7 +1401,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1083,7 +1418,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1100,7 +1435,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1117,7 +1452,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1134,7 +1469,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1151,7 +1486,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1168,7 +1503,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1185,7 +1520,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1202,7 +1537,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1219,7 +1554,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1236,7 +1571,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1253,7 +1588,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="E12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1270,7 +1605,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1287,7 +1622,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1304,7 +1639,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1321,7 +1656,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1338,7 +1673,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1355,7 +1690,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1372,7 +1707,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1389,7 +1724,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1406,7 +1741,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1423,7 +1758,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1440,7 +1775,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1457,7 +1792,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="F12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1474,7 +1809,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1491,7 +1826,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1508,7 +1843,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1525,7 +1860,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1542,7 +1877,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1559,7 +1894,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1576,7 +1911,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1593,7 +1928,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1610,7 +1945,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1627,7 +1962,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1644,7 +1979,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1661,7 +1996,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="G12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1678,7 +2013,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1695,7 +2030,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1712,7 +2047,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1729,7 +2064,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1746,7 +2081,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1763,7 +2098,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1780,7 +2115,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1797,7 +2132,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1814,7 +2149,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1831,7 +2166,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1848,7 +2183,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1865,7 +2200,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="H12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1882,7 +2217,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1899,7 +2234,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1916,7 +2251,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1933,7 +2268,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1950,7 +2285,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1967,7 +2302,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -1984,7 +2319,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2001,7 +2336,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2018,7 +2353,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2035,7 +2370,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2052,7 +2387,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2069,7 +2404,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="I12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2086,7 +2421,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2103,7 +2438,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2120,7 +2455,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2137,7 +2472,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2154,7 +2489,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2171,7 +2506,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2188,7 +2523,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2205,7 +2540,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2222,7 +2557,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2239,7 +2574,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2256,7 +2591,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2273,7 +2608,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="J12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2290,7 +2625,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2307,7 +2642,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2324,7 +2659,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2341,7 +2676,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2358,7 +2693,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2375,7 +2710,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2392,7 +2727,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2409,7 +2744,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2426,7 +2761,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2443,7 +2778,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2460,7 +2795,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2477,7 +2812,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="K12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2494,7 +2829,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L1" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2511,7 +2846,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L2" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2528,7 +2863,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L3" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2545,7 +2880,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L4" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2562,7 +2897,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L5" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2579,7 +2914,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L6" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2596,7 +2931,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L7" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2613,7 +2948,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L8" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2630,7 +2965,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L9" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2647,7 +2982,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L10" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2664,7 +2999,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L11" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2681,7 +3016,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="L12" type="ColorRect" parent="CanvasLayer/Canvas" groups=["Pixel"]]
@@ -2698,11 +3033,11 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-script = ExtResource("2_8jfas")
+script = ExtResource("2_jn0fs")
 metadata/_edit_use_anchors_ = true
 
 [node name="Fixed" type="Node2D" parent="CanvasLayer"]
-visible = false
+modulate = Color(1, 1, 1, 0)
 z_index = 1
 position = Vector2(-19, -500)
 scale = Vector2(0.76, 0.76)
@@ -5063,9 +5398,9 @@ offset_right = 47.0
 offset_bottom = 70.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("3_74gql")
-texture_pressed = ExtResource("4_aus52")
-texture_hover = ExtResource("4_aus52")
+texture_normal = ExtResource("3_5mew6")
+texture_pressed = ExtResource("4_bln5v")
+texture_hover = ExtResource("4_bln5v")
 stretch_mode = 0
 
 [node name="Black" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5080,9 +5415,9 @@ offset_right = 47.0
 offset_bottom = 116.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("4_joqx3")
-texture_pressed = ExtResource("6_nef7i")
-texture_hover = ExtResource("6_nef7i")
+texture_normal = ExtResource("5_i6lkx")
+texture_pressed = ExtResource("6_tsh3f")
+texture_hover = ExtResource("6_tsh3f")
 stretch_mode = 0
 
 [node name="LightGray" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5097,9 +5432,9 @@ offset_right = 47.0
 offset_bottom = 162.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("5_p2n2i")
-texture_pressed = ExtResource("8_nok2a")
-texture_hover = ExtResource("8_nok2a")
+texture_normal = ExtResource("7_cyb6k")
+texture_pressed = ExtResource("8_sbyit")
+texture_hover = ExtResource("8_sbyit")
 stretch_mode = 0
 
 [node name="Gray" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5114,9 +5449,9 @@ offset_right = 47.0
 offset_bottom = 207.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("6_7tjne")
-texture_pressed = ExtResource("10_b2w20")
-texture_hover = ExtResource("10_b2w20")
+texture_normal = ExtResource("9_3n3lb")
+texture_pressed = ExtResource("10_03gbt")
+texture_hover = ExtResource("10_03gbt")
 stretch_mode = 0
 
 [node name="Red" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5131,9 +5466,9 @@ offset_right = 47.0
 offset_bottom = 252.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("7_podah")
-texture_pressed = ExtResource("12_3lj4l")
-texture_hover = ExtResource("12_3lj4l")
+texture_normal = ExtResource("11_b6fis")
+texture_pressed = ExtResource("12_ko5bk")
+texture_hover = ExtResource("12_ko5bk")
 stretch_mode = 0
 
 [node name="Orange" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5148,9 +5483,9 @@ offset_right = 47.0
 offset_bottom = 298.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("8_eu0mb")
-texture_pressed = ExtResource("14_ls184")
-texture_hover = ExtResource("14_ls184")
+texture_normal = ExtResource("13_2hf8k")
+texture_pressed = ExtResource("14_sr45h")
+texture_hover = ExtResource("14_sr45h")
 stretch_mode = 0
 
 [node name="Yellow" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5165,9 +5500,9 @@ offset_right = 47.0
 offset_bottom = 344.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("9_kbff1")
-texture_pressed = ExtResource("16_dv1rj")
-texture_hover = ExtResource("16_dv1rj")
+texture_normal = ExtResource("15_lqtcv")
+texture_pressed = ExtResource("16_38g3k")
+texture_hover = ExtResource("16_38g3k")
 stretch_mode = 0
 
 [node name="Lime" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5182,9 +5517,9 @@ offset_right = 47.0
 offset_bottom = 391.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("10_bnra4")
-texture_pressed = ExtResource("18_24lf1")
-texture_hover = ExtResource("18_24lf1")
+texture_normal = ExtResource("17_ubrmw")
+texture_pressed = ExtResource("18_emh4j")
+texture_hover = ExtResource("18_emh4j")
 stretch_mode = 0
 
 [node name="Green" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5199,9 +5534,9 @@ offset_right = 94.0
 offset_bottom = 70.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("11_ilupj")
-texture_pressed = ExtResource("20_l1u26")
-texture_hover = ExtResource("20_l1u26")
+texture_normal = ExtResource("19_ku51f")
+texture_pressed = ExtResource("20_5y1ib")
+texture_hover = ExtResource("20_5y1ib")
 stretch_mode = 0
 
 [node name="Cyan" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5216,9 +5551,9 @@ offset_right = 94.0
 offset_bottom = 116.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("12_4i2fv")
-texture_pressed = ExtResource("22_iyxbh")
-texture_hover = ExtResource("22_iyxbh")
+texture_normal = ExtResource("21_cvcwi")
+texture_pressed = ExtResource("22_m41iy")
+texture_hover = ExtResource("22_m41iy")
 stretch_mode = 0
 
 [node name="LightBlue" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5233,9 +5568,9 @@ offset_right = 94.0
 offset_bottom = 162.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("13_p0rg4")
-texture_pressed = ExtResource("24_kioc5")
-texture_hover = ExtResource("24_kioc5")
+texture_normal = ExtResource("23_svi1l")
+texture_pressed = ExtResource("24_ivodf")
+texture_hover = ExtResource("24_ivodf")
 stretch_mode = 0
 
 [node name="Blue" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5250,9 +5585,9 @@ offset_right = 94.0
 offset_bottom = 207.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("14_xfu3l")
-texture_pressed = ExtResource("26_aiugl")
-texture_hover = ExtResource("26_aiugl")
+texture_normal = ExtResource("25_7tjf5")
+texture_pressed = ExtResource("26_sym60")
+texture_hover = ExtResource("26_sym60")
 stretch_mode = 0
 
 [node name="Purple" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5267,9 +5602,9 @@ offset_right = 94.0
 offset_bottom = 252.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("15_2wupl")
-texture_pressed = ExtResource("28_eq8sg")
-texture_hover = ExtResource("28_eq8sg")
+texture_normal = ExtResource("27_kv5on")
+texture_pressed = ExtResource("28_0k8pi")
+texture_hover = ExtResource("28_0k8pi")
 stretch_mode = 0
 
 [node name="Pink" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5284,9 +5619,9 @@ offset_right = 94.0
 offset_bottom = 298.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("16_avitq")
-texture_pressed = ExtResource("30_8o5fl")
-texture_hover = ExtResource("30_8o5fl")
+texture_normal = ExtResource("29_06enj")
+texture_pressed = ExtResource("30_4plja")
+texture_hover = ExtResource("30_4plja")
 stretch_mode = 0
 
 [node name="Brown" type="TextureButton" parent="CanvasLayer/Buttons"]
@@ -5301,27 +5636,43 @@ offset_right = 94.0
 offset_bottom = 344.0
 grow_horizontal = 2
 grow_vertical = 2
-texture_normal = ExtResource("17_rflkf")
-texture_pressed = ExtResource("32_n6ccq")
-texture_hover = ExtResource("32_n6ccq")
+texture_normal = ExtResource("31_lve42")
+texture_pressed = ExtResource("32_tiemh")
+texture_hover = ExtResource("32_tiemh")
 stretch_mode = 0
 
 [node name="Text" type="Node2D" parent="CanvasLayer"]
-visible = false
 
 [node name="Label" type="Label" parent="CanvasLayer/Text"]
+modulate = Color(1, 1, 1, 0)
 z_index = 2
 offset_left = 1159.0
 offset_top = 502.0
-offset_right = 1843.0
-offset_bottom = 639.0
-theme_override_colors/font_color = Color(0.439216, 0.439216, 0.439216, 1)
-theme_override_font_sizes/font_size = 59
+offset_right = 1462.0
+offset_bottom = 839.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
 text = "Remember and Forge The Drawing"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Accuracy" type="Label" parent="CanvasLayer/Text"]
+modulate = Color(1, 1, 1, 0)
+z_index = 2
+offset_left = 1000.0
+offset_top = 451.0
+offset_right = 1684.0
+offset_bottom = 588.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "0% Accurate"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Auction" type="Node2D" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(515, 0)
 
 [node name="Title" type="Label" parent="CanvasLayer/Auction"]
 offset_left = 604.0
@@ -5441,7 +5792,7 @@ text = "Continue"
 [node name="CanvasStand" type="Sprite2D" parent="CanvasLayer"]
 position = Vector2(560, 543)
 scale = Vector2(10, 10)
-texture = ExtResource("3_dvmy4")
+texture = ExtResource("33_vqj6d")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="CanvasLayer"]
 libraries = {
@@ -5753,4 +6104,9 @@ libraries = {
 [connection signal="button_down" from="CanvasLayer/Buttons/Purple" to="CanvasLayer" method="_on_purple_button_down"]
 [connection signal="button_down" from="CanvasLayer/Buttons/Pink" to="CanvasLayer" method="_on_pink_button_down"]
 [connection signal="button_down" from="CanvasLayer/Buttons/Brown" to="CanvasLayer" method="_on_brown_button_down"]
+[connection signal="button_down" from="CanvasLayer/Auction/Option1Button" to="CanvasLayer" method="_on_option1_button_button_down"]
+[connection signal="button_down" from="CanvasLayer/Auction/Option2Button" to="CanvasLayer" method="_on_option2_button_button_down"]
+[connection signal="button_down" from="CanvasLayer/Auction/Option3Button" to="CanvasLayer" method="_on_option3_button_button_down"]
+[connection signal="button_down" from="CanvasLayer/Auction/Option4Button" to="CanvasLayer" method="_on_option4_button_button_down"]
+[connection signal="button_down" from="CanvasLayer/Auction/Option5Button" to="CanvasLayer" method="_on_option5_button_button_down"]
 [connection signal="button_down" from="CanvasLayer/NextDrawing" to="CanvasLayer" method="_on_nextdrawing_button_down"]

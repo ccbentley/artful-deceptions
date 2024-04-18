@@ -4,12 +4,17 @@ var hovered_pixel = null
 var selected_color = Color(0,0,0,1)
 var current_drawing = null
 
+var money : float = 0
+
+var can_draw : bool = false
+
 @onready var anim = $AnimationPlayer
+@onready var score_label = $Text/Accuracy
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
-		if(hovered_pixel != null and !anim.is_playing()):
+		if(hovered_pixel != null and !anim.is_playing() and can_draw):
 			hovered_pixel.modulate = selected_color
 
 var color_array = []
@@ -52,59 +57,91 @@ func clear_canvas():
 
 func start_round():
 	clear_canvas()
-	anim.play("start")
+	can_draw = true
+	selected_color = Color(0, 0, 0, 1)
+	anim.play("round_start")
+
+func animate_score():
+	var final_score : int = compare_drawings(color_array, current_drawing)
+	var duration : float = 1
+	var current_score = 0
+	var time_per_increment = duration / final_score
+	while current_score < final_score:
+		current_score += 1
+		score_label.text = str(current_score, "% Accuracy")
+		await get_tree().create_timer(time_per_increment).timeout
 
 func _on_nextdrawing_button_down():
 	start_round()
 
 func _on_done_button_down():
-	convert_to_array()
-	print(compare_drawings(color_array, current_drawing))
+	if(can_draw):
+		convert_to_array()
+		anim.play("auction_start")
+		can_draw = false
+		#print(compare_drawings(color_array, current_drawing))
 
 func _on_clear_button_down():
-	clear_canvas()
-
+	if(can_draw):
+		clear_canvas()
 func _on_white_button_down():
 	selected_color = Color(1, 1, 1, 1)
-
 func _on_black_button_down():
 	selected_color = Color(0, 0, 0, 1)
-
 func _on_lightgray_button_down():
 	selected_color = Color(0.8275, 0.8275, 0.8275, 1)
-
 func _on_gray_button_down():
 	selected_color = Color(0.4118, 0.4118, 0.4118, 1)
-
 func _on_red_button_down():
 	selected_color = Color(1, 0, 0, 1)
-
 func _on_orange_button_down():
 	selected_color = Color(1, 0.6471, 0, 1)
-
 func _on_yellow_button_down():
 	selected_color = Color(1, 1, 0, 1)
-
 func _on_lime_button_down():
 	selected_color = Color(0, 1, 0, 1)
-
 func _on_green_button_down():
 	selected_color = Color(0, 0.502, 0, 1)
-
 func _on_cyan_button_down():
 	selected_color = Color(0, 0.5451, 0.5451, 1)
-
 func _on_lightblue_button_down():
 	selected_color = Color(0, 0.749, 1, 1)
-
 func _on_blue_button_down():
 	selected_color = Color(0, 0, 0.8039, 1)
-
 func _on_purple_button_down():
 	selected_color = Color(0.6275, 0.1255, 0.9412, 1)
-
 func _on_pink_button_down():
 	selected_color = Color(1, 0.4118, 0.7059, 1)
-
 func _on_brown_button_down():
 	selected_color = Color(0.5451, 0.2706, 0.0745, 1)
+
+func _on_option1_button_button_down():
+	if(compare_drawings(color_array, current_drawing) >= 100):
+		money += 500000
+	else:
+		money = money / 2
+
+func _on_option2_button_button_down():
+	if(compare_drawings(color_array, current_drawing) >= 95):
+		money += 250000
+	else:
+		money = money / 2
+	anim.play("auction_end")
+
+func _on_option3_button_button_down():
+	if(compare_drawings(color_array, current_drawing) >= 88):
+		money += 150000
+	else:
+		money = money / 2
+
+func _on_option4_button_button_down():
+	if(compare_drawings(color_array, current_drawing) >= 75):
+		money += 75000
+	else:
+		money = money / 2
+
+func _on_option5_button_button_down():
+	if(compare_drawings(color_array, current_drawing) >= 50):
+		money += 25000
+	else:
+		money = money / 2
