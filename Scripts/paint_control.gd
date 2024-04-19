@@ -96,7 +96,8 @@ func start_clock():
 	clock.play("clock")
 	await clock.animation_finished
 	if(can_draw):
-		_on_done_button_down()
+		#_on_done_button_down()
+		pass
 
 func _on_nextdrawing_button_down():
 	score_label.text = str("0% Accuracy")
