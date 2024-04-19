@@ -1,8 +1,9 @@
-[gd_scene load_steps=49 format=3 uid="uid://bbtjud34wcwwd"]
+[gd_scene load_steps=50 format=3 uid="uid://bbtjud34wcwwd"]
 
 [ext_resource type="Script" path="res://Scripts/paint_control.gd" id="1_q2l1k"]
 [ext_resource type="Script" path="res://Scripts/paint_hover.gd" id="2_jn0fs"]
 [ext_resource type="Texture2D" uid="uid://ccbanxei3lhdc" path="res://Assets/Art/Colors/Normal/White.png" id="3_5mew6"]
+[ext_resource type="Script" path="res://Scripts/button.gd" id="3_p7kj5"]
 [ext_resource type="Texture2D" uid="uid://k7tdloeggnt4" path="res://Assets/Art/Colors/Selected/White.png" id="4_bln5v"]
 [ext_resource type="Texture2D" uid="uid://bdh3xl6ly6ow3" path="res://Assets/Art/Colors/Normal/Black.png" id="5_i6lkx"]
 [ext_resource type="Texture2D" uid="uid://b0hj0inv6hf1e" path="res://Assets/Art/Colors/Selected/Black.png" id="6_tsh3f"]
@@ -5704,6 +5705,7 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "Submit
 "
+script = ExtResource("3_p7kj5")
 
 [node name="Clear" type="Button" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5718,6 +5720,7 @@ offset_bottom = 437.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Clear"
+script = ExtResource("3_p7kj5")
 
 [node name="White" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5735,6 +5738,7 @@ texture_normal = ExtResource("3_5mew6")
 texture_pressed = ExtResource("4_bln5v")
 texture_hover = ExtResource("4_bln5v")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Black" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5752,6 +5756,7 @@ texture_normal = ExtResource("5_i6lkx")
 texture_pressed = ExtResource("6_tsh3f")
 texture_hover = ExtResource("6_tsh3f")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="LightGray" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5769,6 +5774,7 @@ texture_normal = ExtResource("7_cyb6k")
 texture_pressed = ExtResource("8_sbyit")
 texture_hover = ExtResource("8_sbyit")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Gray" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5786,6 +5792,7 @@ texture_normal = ExtResource("9_3n3lb")
 texture_pressed = ExtResource("10_03gbt")
 texture_hover = ExtResource("10_03gbt")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Red" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5803,6 +5810,7 @@ texture_normal = ExtResource("11_b6fis")
 texture_pressed = ExtResource("12_ko5bk")
 texture_hover = ExtResource("12_ko5bk")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Orange" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5820,6 +5828,7 @@ texture_normal = ExtResource("13_2hf8k")
 texture_pressed = ExtResource("14_sr45h")
 texture_hover = ExtResource("14_sr45h")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Yellow" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5837,6 +5846,7 @@ texture_normal = ExtResource("15_lqtcv")
 texture_pressed = ExtResource("16_38g3k")
 texture_hover = ExtResource("16_38g3k")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Lime" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5854,6 +5864,7 @@ texture_normal = ExtResource("17_ubrmw")
 texture_pressed = ExtResource("18_emh4j")
 texture_hover = ExtResource("18_emh4j")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Green" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5871,6 +5882,7 @@ texture_normal = ExtResource("19_ku51f")
 texture_pressed = ExtResource("20_5y1ib")
 texture_hover = ExtResource("20_5y1ib")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Cyan" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5888,6 +5900,7 @@ texture_normal = ExtResource("21_cvcwi")
 texture_pressed = ExtResource("22_m41iy")
 texture_hover = ExtResource("22_m41iy")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="LightBlue" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5905,6 +5918,7 @@ texture_normal = ExtResource("23_svi1l")
 texture_pressed = ExtResource("24_ivodf")
 texture_hover = ExtResource("24_ivodf")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Blue" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5922,6 +5936,7 @@ texture_normal = ExtResource("25_7tjf5")
 texture_pressed = ExtResource("26_sym60")
 texture_hover = ExtResource("26_sym60")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Purple" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5939,6 +5954,7 @@ texture_normal = ExtResource("27_kv5on")
 texture_pressed = ExtResource("28_0k8pi")
 texture_hover = ExtResource("28_0k8pi")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Pink" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5956,6 +5972,7 @@ texture_normal = ExtResource("29_06enj")
 texture_pressed = ExtResource("30_4plja")
 texture_hover = ExtResource("30_4plja")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Brown" type="TextureButton" parent="CanvasLayer/Buttons"]
 anchors_preset = 8
@@ -5973,6 +5990,7 @@ texture_normal = ExtResource("31_lve42")
 texture_pressed = ExtResource("32_tiemh")
 texture_hover = ExtResource("32_tiemh")
 stretch_mode = 0
+script = ExtResource("3_p7kj5")
 
 [node name="Text" type="Node2D" parent="CanvasLayer"]
 
@@ -6109,6 +6127,7 @@ offset_top = 185.0
 offset_right = 732.0
 offset_bottom = 216.0
 text = "$500,000"
+script = ExtResource("3_p7kj5")
 
 [node name="Option2Button" type="Button" parent="CanvasLayer/Auction"]
 offset_left = 653.0
@@ -6116,6 +6135,7 @@ offset_top = 229.0
 offset_right = 730.0
 offset_bottom = 260.0
 text = "$250,000"
+script = ExtResource("3_p7kj5")
 
 [node name="Option3Button" type="Button" parent="CanvasLayer/Auction"]
 offset_left = 652.0
@@ -6123,6 +6143,7 @@ offset_top = 274.0
 offset_right = 729.0
 offset_bottom = 305.0
 text = "$150,000"
+script = ExtResource("3_p7kj5")
 
 [node name="Option4Button" type="Button" parent="CanvasLayer/Auction"]
 offset_left = 651.0
@@ -6130,6 +6151,7 @@ offset_top = 322.0
 offset_right = 728.0
 offset_bottom = 353.0
 text = "$75,000"
+script = ExtResource("3_p7kj5")
 
 [node name="Option5Button" type="Button" parent="CanvasLayer/Auction"]
 offset_left = 651.0
@@ -6137,6 +6159,7 @@ offset_top = 366.0
 offset_right = 728.0
 offset_bottom = 397.0
 text = "$25,000"
+script = ExtResource("3_p7kj5")
 
 [node name="Begin" type="Node2D" parent="CanvasLayer"]
 
@@ -6166,6 +6189,7 @@ offset_right = 1407.0
 offset_bottom = 640.0
 theme_override_font_sizes/font_size = 20
 text = "Continue"
+script = ExtResource("3_p7kj5")
 
 [node name="CanvasStand" type="Sprite2D" parent="CanvasLayer"]
 position = Vector2(560, 543)
