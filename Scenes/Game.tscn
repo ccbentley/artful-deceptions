@@ -896,12 +896,12 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("41_wcq65")
 }, {
-"duration": 1.0,
+"duration": 0.1,
 "texture": ExtResource("34_l1b52")
 }],
 "loop": false,
 "name": &"clock",
-"speed": 0.11
+"speed": 0.15
 }, {
 "frames": [{
 "duration": 1.0,

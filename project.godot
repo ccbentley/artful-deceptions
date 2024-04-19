@@ -11,13 +11,15 @@ config_version=5
 [application]
 
 config/name="Artful Deceptions"
-run/main_scene="res://Scenes/Game.tscn"
+config/tags=PackedStringArray("gamejam")
+run/main_scene="res://Scenes/TitleScreen.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://Assets/Art/icon.svg"
 
 [autoload]
 
 Drawings="*res://Scripts/arrays.gd"
+SceneTransition="*res://Scenes/SceneTransition.tscn"
 
 [display]
 

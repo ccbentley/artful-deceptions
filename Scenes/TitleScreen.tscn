@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl4bl42yik0ju"]
+
+[ext_resource type="Script" path="res://Scripts/titlescreen.gd" id="1_c8di2"]
+[ext_resource type="Texture2D" uid="uid://bawgree4ary1w" path="res://Assets/Art/Logo.png" id="2_odatp"]
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_c8di2")
+
+[node name="Start" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 120.0
+offset_top = -56.0
+offset_right = 188.0
+offset_bottom = -13.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+text = "Start"
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 124.0
+offset_top = 35.0
+offset_right = 185.0
+offset_bottom = 78.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+text = "Quit"
+
+[node name="Logo" type="Sprite2D" parent="."]
+position = Vector2(339, 312)
+texture = ExtResource("2_odatp")
+
+[connection signal="button_down" from="Start" to="." method="_on_start_button_down"]
+[connection signal="button_down" from="Quit" to="." method="_on_quit_button_down"]
