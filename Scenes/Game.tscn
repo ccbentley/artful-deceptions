@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=3 uid="uid://bbtjud34wcwwd"]
+[gd_scene load_steps=51 format=3 uid="uid://bbtjud34wcwwd"]
 
 [ext_resource type="Script" path="res://Scripts/paint_control.gd" id="1_q2l1k"]
 [ext_resource type="Script" path="res://Scripts/paint_hover.gd" id="2_jn0fs"]
@@ -280,6 +280,66 @@ tracks/19/path = NodePath("Clock:modulate")
 tracks/19/interp = 1
 tracks/19/loop_wrap = true
 tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("Canvas:modulate")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("CanvasStand:modulate")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("GameEnd:position")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-800, 0)]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("GameEnd:modulate")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("GameEnd/Return:modulate")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
@@ -861,11 +921,208 @@ tracks/6/keys = {
 }]
 }
 
+[sub_resource type="Animation" id="Animation_ignac"]
+resource_name = "game_end"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Canvas:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.2),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(1200, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasStand:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.2),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(354, 543), Vector2(1550, 543)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Buttons:modulate")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(2),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Fixed:position")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(440, 75), Vector2(1000, 75)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Fixed:modulate")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Text/Accuracy:position")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(550, 450), Vector2(1000, 450)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Text/Accuracy:modulate")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("NextDrawing:position")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(930, 590), Vector2(1200, 590)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("NextDrawing:modulate")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Text/TotalMoney:modulate")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Text/GainedMoney:modulate")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Canvas:modulate")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 1.2),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("CanvasStand:modulate")
+tracks/12/interp = 2
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 1.2),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("GameEnd:position")
+tracks/13/interp = 2
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(1, 1.8),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Vector2(-800, 0), Vector2(0, 0)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("GameEnd:modulate")
+tracks/14/interp = 2
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(1, 1.8),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("GameEnd/Return:modulate")
+tracks/15/interp = 2
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(1.6, 2),
+"transitions": PackedFloat32Array(2, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0q760"]
 _data = {
 "RESET": SubResource("Animation_b35mh"),
 "auction_end": SubResource("Animation_07kro"),
 "auction_start": SubResource("Animation_565o7"),
+"game_end": SubResource("Animation_ignac"),
 "round_reset": SubResource("Animation_ij544"),
 "round_start": SubResource("Animation_1sn2m")
 }
@@ -6013,7 +6270,7 @@ modulate = Color(1, 1, 1, 0)
 z_index = 2
 offset_left = 1000.0
 offset_top = 451.0
-offset_right = 1684.0
+offset_right = 1684.01
 offset_bottom = 588.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 40
@@ -6072,9 +6329,9 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Option1" type="Label" parent="CanvasLayer/Auction"]
-offset_left = 738.0
+offset_left = 740.0
 offset_top = 167.0
-offset_right = 1266.0
+offset_right = 1268.0
 offset_bottom = 236.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 20
@@ -6082,81 +6339,81 @@ text = "Requires 100% Accuracy"
 vertical_alignment = 1
 
 [node name="Option2" type="Label" parent="CanvasLayer/Auction"]
-offset_left = 734.0
-offset_top = 208.0
-offset_right = 1262.0
-offset_bottom = 277.0
+offset_left = 740.0
+offset_top = 212.0
+offset_right = 1268.0
+offset_bottom = 281.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 20
 text = "Requires 95% Accuracy"
 vertical_alignment = 1
 
 [node name="Option3" type="Label" parent="CanvasLayer/Auction"]
-offset_left = 734.0
-offset_top = 254.0
-offset_right = 1262.0
-offset_bottom = 323.0
+offset_left = 740.0
+offset_top = 256.0
+offset_right = 1268.0
+offset_bottom = 325.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 20
 text = "Requires 88% Accuracy"
 vertical_alignment = 1
 
 [node name="Option4" type="Label" parent="CanvasLayer/Auction"]
-offset_left = 734.0
-offset_top = 303.0
-offset_right = 1262.0
-offset_bottom = 372.0
+offset_left = 740.0
+offset_top = 304.0
+offset_right = 1268.0
+offset_bottom = 373.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 20
 text = "Requires 75% Accuracy"
 vertical_alignment = 1
 
 [node name="Option5" type="Label" parent="CanvasLayer/Auction"]
-offset_left = 737.0
-offset_top = 346.0
-offset_right = 1265.0
-offset_bottom = 415.0
+offset_left = 740.0
+offset_top = 348.0
+offset_right = 1268.0
+offset_bottom = 417.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 20
 text = "Requires 50% Accuracy"
 vertical_alignment = 1
 
 [node name="Option1Button" type="Button" parent="CanvasLayer/Auction"]
-offset_left = 655.0
+offset_left = 650.0
 offset_top = 185.0
-offset_right = 732.0
+offset_right = 727.0
 offset_bottom = 216.0
 text = "$500,000"
 script = ExtResource("3_p7kj5")
 
 [node name="Option2Button" type="Button" parent="CanvasLayer/Auction"]
-offset_left = 653.0
+offset_left = 650.0
 offset_top = 229.0
-offset_right = 730.0
+offset_right = 727.0
 offset_bottom = 260.0
 text = "$250,000"
 script = ExtResource("3_p7kj5")
 
 [node name="Option3Button" type="Button" parent="CanvasLayer/Auction"]
-offset_left = 652.0
+offset_left = 650.0
 offset_top = 274.0
-offset_right = 729.0
+offset_right = 727.0
 offset_bottom = 305.0
 text = "$150,000"
 script = ExtResource("3_p7kj5")
 
 [node name="Option4Button" type="Button" parent="CanvasLayer/Auction"]
-offset_left = 651.0
+offset_left = 650.0
 offset_top = 322.0
-offset_right = 728.0
+offset_right = 727.0
 offset_bottom = 353.0
 text = "$75,000"
 script = ExtResource("3_p7kj5")
 
 [node name="Option5Button" type="Button" parent="CanvasLayer/Auction"]
-offset_left = 651.0
+offset_left = 650.0
 offset_top = 366.0
-offset_right = 728.0
+offset_right = 727.0
 offset_bottom = 397.0
 text = "$25,000"
 script = ExtResource("3_p7kj5")
@@ -6180,6 +6437,39 @@ text = "Round 1/5
 Click Anywhere To Start Begin"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="GameEnd" type="Node2D" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(-800, 0)
+
+[node name="Label" type="Label" parent="CanvasLayer/GameEnd"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 396.0
+offset_top = 212.0
+offset_right = 723.0
+offset_bottom = 353.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Money Made:
+$100000"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Return" type="Button" parent="CanvasLayer/GameEnd"]
+modulate = Color(1, 1, 1, 0)
+offset_left = 924.0
+offset_top = 579.0
+offset_right = 1131.0
+offset_bottom = 629.0
+theme_override_font_sizes/font_size = 20
+text = "Return To Menu"
+script = ExtResource("3_p7kj5")
 
 [node name="NextDrawing" type="Button" parent="CanvasLayer"]
 modulate = Color(1, 1, 1, 0)
@@ -6519,4 +6809,5 @@ animation = &"clock"
 [connection signal="button_down" from="CanvasLayer/Auction/Option3Button" to="CanvasLayer" method="_on_option3_button_button_down"]
 [connection signal="button_down" from="CanvasLayer/Auction/Option4Button" to="CanvasLayer" method="_on_option4_button_button_down"]
 [connection signal="button_down" from="CanvasLayer/Auction/Option5Button" to="CanvasLayer" method="_on_option5_button_button_down"]
+[connection signal="button_down" from="CanvasLayer/GameEnd/Return" to="CanvasLayer" method="_on_return_button_down"]
 [connection signal="button_down" from="CanvasLayer/NextDrawing" to="CanvasLayer" method="_on_nextdrawing_button_down"]

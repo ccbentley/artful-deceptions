@@ -24,8 +24,6 @@ func _process(_delta):
 			hovered_pixel.modulate = selected_color
 		if(preround.visible):
 			exit_pre_round()
-	if(round > max_rounds):
-		end_game()
 
 var color_array = []
 @onready var fixed_drawing_array = [$Fixed/A1,$Fixed/A2,$Fixed/A3,$Fixed/A4,$Fixed/A5,$Fixed/A6,$Fixed/A7,$Fixed/A8,$Fixed/A9,$Fixed/A10,$Fixed/A11,$Fixed/A12,$Fixed/B1,$Fixed/B2,$Fixed/B3,$Fixed/B4,$Fixed/B5,$Fixed/B6,$Fixed/B7,$Fixed/B8,$Fixed/B9,$Fixed/B10,$Fixed/B11,$Fixed/B12,$Fixed/C1,$Fixed/C2,$Fixed/C3,$Fixed/C4,$Fixed/C5,$Fixed/C6,$Fixed/C7,$Fixed/C8,$Fixed/C9,$Fixed/C10,$Fixed/C11,$Fixed/C12,$Fixed/D1,$Fixed/D2,$Fixed/D3,$Fixed/D4,$Fixed/D5,$Fixed/D6,$Fixed/D7,$Fixed/D8,$Fixed/D9,$Fixed/D10,$Fixed/D11,$Fixed/D12,$Fixed/E1,$Fixed/E2,$Fixed/E3,$Fixed/E4,$Fixed/E5,$Fixed/E6,$Fixed/E7,$Fixed/E8,$Fixed/E9,$Fixed/E10,$Fixed/E11,$Fixed/E12,$Fixed/F1,$Fixed/F2,$Fixed/F3,$Fixed/F4,$Fixed/F5,$Fixed/F6,$Fixed/F7,$Fixed/F8,$Fixed/F9,$Fixed/F10,$Fixed/F11,$Fixed/F12,$Fixed/G1,$Fixed/G2,$Fixed/G3,$Fixed/G4,$Fixed/G5,$Fixed/G6,$Fixed/G7,$Fixed/G8,$Fixed/G9,$Fixed/G10,$Fixed/G11,$Fixed/G12,$Fixed/H1,$Fixed/H2,$Fixed/H3,$Fixed/H4,$Fixed/H5,$Fixed/H6,$Fixed/H7,$Fixed/H8,$Fixed/H9,$Fixed/H10,$Fixed/H11,$Fixed/H12,$Fixed/I1,$Fixed/I2,$Fixed/I3,$Fixed/I4,$Fixed/I5,$Fixed/I6,$Fixed/I7,$Fixed/I8,$Fixed/I9,$Fixed/I10,$Fixed/I11,$Fixed/I12,$Fixed/J1,$Fixed/J2,$Fixed/J3,$Fixed/J4,$Fixed/J5,$Fixed/J6,$Fixed/J7,$Fixed/J8,$Fixed/J9,$Fixed/J10,$Fixed/J11,$Fixed/J12,$Fixed/K1,$Fixed/K2,$Fixed/K3,$Fixed/K4,$Fixed/K5,$Fixed/K6,$Fixed/K7,$Fixed/K8,$Fixed/K9,$Fixed/K10,$Fixed/K11,$Fixed/K12,$Fixed/L1,$Fixed/L2,$Fixed/L3,$Fixed/L4,$Fixed/L5,$Fixed/L6,$Fixed/L7,$Fixed/L8,$Fixed/L9,$Fixed/L10,$Fixed/L11,$Fixed/L12]
@@ -80,7 +78,11 @@ func start_round():
 	anim.play("round_start")
 
 func end_game():
-	pass
+	if(money >= 0):
+		$GameEnd/Label.text = str("You made: \n$", money)
+	elif(money < 0):
+		$GameEnd/Label.text = str("You lost: \n$", money)
+	anim.play("game_end")
 
 func animate_score():
 	var final_score : int = compare_drawings(color_array, current_drawing)
@@ -96,12 +98,17 @@ func start_clock():
 	clock.play("clock")
 	await clock.animation_finished
 	if(can_draw):
-		#_on_done_button_down()
-		pass
+		_on_done_button_down()
+
+func _on_return_button_down():
+	SceneTransition.change_scene("res://Scenes/TitleScreen.tscn")
 
 func _on_nextdrawing_button_down():
-	score_label.text = str("0% Accuracy")
-	anim.play("round_reset")
+	if(round > max_rounds):
+		end_game()
+	else:
+		score_label.text = str("0% Accuracy")
+		anim.play("round_reset")
 
 func enter_pre_round():
 	$Begin/Label.text = str("Round ", round, "/", max_rounds, "\n Click Anywhere To Begin")
@@ -117,7 +124,6 @@ func _on_done_button_down():
 		anim.play("auction_start")
 		can_draw = false
 		clock.play("reset")
-		print(color_array)
 
 func _on_clear_button_down():
 	if(can_draw):
@@ -212,3 +218,4 @@ func _on_option5_button_button_down():
 		gained_money.add_theme_color_override("font_color", Color.RED)
 	anim.play("auction_end")
 	total_money.text = str("$", money)
+
