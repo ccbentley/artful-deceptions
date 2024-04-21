@@ -8,6 +8,7 @@ var round : int = 1
 var max_rounds : int = 6
 
 var can_draw : bool = false
+var tick_sound_playing = false
 
 var available_drawings = []
 
@@ -18,12 +19,30 @@ var available_drawings = []
 @onready var gained_money = $Text/GainedMoney
 @onready var clock = $Clock
 
+@onready var button_sound = $ButtonClickSound
+@onready var clock_tick_sound = $TickSound
+@onready var background_music = $BackgroundMusic
+
+var music_tween : Tween
+
 func _process(_delta):
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 		if(hovered_pixel != null and !anim.is_playing() and can_draw):
 			hovered_pixel.modulate = selected_color
 		if(preround.visible):
 			exit_pre_round()
+	if(clock.get_frame() == 7 and !tick_sound_playing):
+		tick_sound_playing = true
+		clock_tick_sound.play()
+	elif(clock.get_frame() != 7):
+		tick_sound_playing = false
+		clock_tick_sound.stop()
+	if(can_draw):
+		music_tween = get_tree().create_tween()
+		music_tween.tween_property(background_music, "volume_db", 1, 1.5)
+	else:
+		music_tween = get_tree().create_tween()
+		music_tween.tween_property(background_music, "volume_db", -80, 1.5)
 
 var color_array = []
 @onready var fixed_drawing_array = [$Fixed/A1,$Fixed/A2,$Fixed/A3,$Fixed/A4,$Fixed/A5,$Fixed/A6,$Fixed/A7,$Fixed/A8,$Fixed/A9,$Fixed/A10,$Fixed/A11,$Fixed/A12,$Fixed/B1,$Fixed/B2,$Fixed/B3,$Fixed/B4,$Fixed/B5,$Fixed/B6,$Fixed/B7,$Fixed/B8,$Fixed/B9,$Fixed/B10,$Fixed/B11,$Fixed/B12,$Fixed/C1,$Fixed/C2,$Fixed/C3,$Fixed/C4,$Fixed/C5,$Fixed/C6,$Fixed/C7,$Fixed/C8,$Fixed/C9,$Fixed/C10,$Fixed/C11,$Fixed/C12,$Fixed/D1,$Fixed/D2,$Fixed/D3,$Fixed/D4,$Fixed/D5,$Fixed/D6,$Fixed/D7,$Fixed/D8,$Fixed/D9,$Fixed/D10,$Fixed/D11,$Fixed/D12,$Fixed/E1,$Fixed/E2,$Fixed/E3,$Fixed/E4,$Fixed/E5,$Fixed/E6,$Fixed/E7,$Fixed/E8,$Fixed/E9,$Fixed/E10,$Fixed/E11,$Fixed/E12,$Fixed/F1,$Fixed/F2,$Fixed/F3,$Fixed/F4,$Fixed/F5,$Fixed/F6,$Fixed/F7,$Fixed/F8,$Fixed/F9,$Fixed/F10,$Fixed/F11,$Fixed/F12,$Fixed/G1,$Fixed/G2,$Fixed/G3,$Fixed/G4,$Fixed/G5,$Fixed/G6,$Fixed/G7,$Fixed/G8,$Fixed/G9,$Fixed/G10,$Fixed/G11,$Fixed/G12,$Fixed/H1,$Fixed/H2,$Fixed/H3,$Fixed/H4,$Fixed/H5,$Fixed/H6,$Fixed/H7,$Fixed/H8,$Fixed/H9,$Fixed/H10,$Fixed/H11,$Fixed/H12,$Fixed/I1,$Fixed/I2,$Fixed/I3,$Fixed/I4,$Fixed/I5,$Fixed/I6,$Fixed/I7,$Fixed/I8,$Fixed/I9,$Fixed/I10,$Fixed/I11,$Fixed/I12,$Fixed/J1,$Fixed/J2,$Fixed/J3,$Fixed/J4,$Fixed/J5,$Fixed/J6,$Fixed/J7,$Fixed/J8,$Fixed/J9,$Fixed/J10,$Fixed/J11,$Fixed/J12,$Fixed/K1,$Fixed/K2,$Fixed/K3,$Fixed/K4,$Fixed/K5,$Fixed/K6,$Fixed/K7,$Fixed/K8,$Fixed/K9,$Fixed/K10,$Fixed/K11,$Fixed/K12,$Fixed/L1,$Fixed/L2,$Fixed/L3,$Fixed/L4,$Fixed/L5,$Fixed/L6,$Fixed/L7,$Fixed/L8,$Fixed/L9,$Fixed/L10,$Fixed/L11,$Fixed/L12]
@@ -32,6 +51,7 @@ var color_array = []
 func _ready():
 	enter_pre_round()
 	available_drawings = Drawings.list.duplicate()
+	background_music.play()
 
 func pick_drawing():
 	if(available_drawings.size() != 0):
@@ -102,6 +122,7 @@ func start_clock():
 
 func _on_return_button_down():
 	SceneTransition.change_scene("res://Scenes/TitleScreen.tscn")
+	button_sound.play()
 
 func _on_nextdrawing_button_down():
 	if(round > max_rounds):
@@ -109,6 +130,7 @@ func _on_nextdrawing_button_down():
 	else:
 		score_label.text = str("0% Accuracy")
 		anim.play("round_reset")
+	button_sound.play()
 
 func enter_pre_round():
 	$Begin/Label.text = str("Round ", round, "/", max_rounds, "\n Click Anywhere To Begin")
@@ -124,40 +146,57 @@ func _on_done_button_down():
 		anim.play("auction_start")
 		can_draw = false
 		clock.play("reset")
+		button_sound.play()
 
 func _on_clear_button_down():
 	if(can_draw):
 		clear_canvas()
+		button_sound.play()
 func _on_white_button_down():
 	selected_color = Color(1, 1, 1, 1)
+	button_sound.play()
 func _on_black_button_down():
 	selected_color = Color(0, 0, 0, 1)
+	button_sound.play()
 func _on_lightgray_button_down():
 	selected_color = Color(0.8275, 0.8275, 0.8275, 1)
+	button_sound.play()
 func _on_gray_button_down():
 	selected_color = Color(0.4118, 0.4118, 0.4118, 1)
+	button_sound.play()
 func _on_red_button_down():
 	selected_color = Color(1, 0, 0, 1)
+	button_sound.play()
 func _on_orange_button_down():
 	selected_color = Color(1, 0.6471, 0, 1)
+	button_sound.play()
 func _on_yellow_button_down():
 	selected_color = Color(1, 1, 0, 1)
+	button_sound.play()
 func _on_lime_button_down():
 	selected_color = Color(0, 1, 0, 1)
+	button_sound.play()
 func _on_green_button_down():
 	selected_color = Color(0, 0.502, 0, 1)
+	button_sound.play()
 func _on_cyan_button_down():
 	selected_color = Color(0, 0.5451, 0.5451, 1)
+	button_sound.play()
 func _on_lightblue_button_down():
 	selected_color = Color(0, 0.749, 1, 1)
+	button_sound.play()
 func _on_blue_button_down():
 	selected_color = Color(0, 0, 0.8039, 1)
+	button_sound.play()
 func _on_purple_button_down():
 	selected_color = Color(0.6275, 0.1255, 0.9412, 1)
+	button_sound.play()
 func _on_pink_button_down():
 	selected_color = Color(1, 0.4118, 0.7059, 1)
+	button_sound.play()
 func _on_brown_button_down():
 	selected_color = Color(0.5451, 0.2706, 0.0745, 1)
+	button_sound.play()
 
 func _on_option1_button_button_down():
 	if(compare_drawings(color_array, current_drawing) >= 100):
@@ -170,6 +209,7 @@ func _on_option1_button_button_down():
 		gained_money.add_theme_color_override("font_color", Color.RED)
 	anim.play("auction_end")
 	total_money.text = str("$", money)
+	button_sound.play()
 
 func _on_option2_button_button_down():
 	if(compare_drawings(color_array, current_drawing) >= 95):
@@ -182,6 +222,7 @@ func _on_option2_button_button_down():
 		gained_money.add_theme_color_override("font_color", Color.RED)
 	anim.play("auction_end")
 	total_money.text = str("$", money)
+	button_sound.play()
 
 func _on_option3_button_button_down():
 	if(compare_drawings(color_array, current_drawing) >= 88):
@@ -194,6 +235,7 @@ func _on_option3_button_button_down():
 		gained_money.add_theme_color_override("font_color", Color.RED)
 	anim.play("auction_end")
 	total_money.text = str("$", money)
+	button_sound.play()
 
 func _on_option4_button_button_down():
 	if(compare_drawings(color_array, current_drawing) >= 75):
@@ -206,6 +248,7 @@ func _on_option4_button_button_down():
 		gained_money.add_theme_color_override("font_color", Color.RED)
 	anim.play("auction_end")
 	total_money.text = str("$", money)
+	button_sound.play()
 
 func _on_option5_button_button_down():
 	if(compare_drawings(color_array, current_drawing) >= 50):
@@ -218,4 +261,5 @@ func _on_option5_button_button_down():
 		gained_money.add_theme_color_override("font_color", Color.RED)
 	anim.play("auction_end")
 	total_money.text = str("$", money)
+	button_sound.play()
 

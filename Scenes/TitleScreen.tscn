@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://bl4bl42yik0ju"]
+[gd_scene load_steps=5 format=3 uid="uid://bl4bl42yik0ju"]
 
 [ext_resource type="Script" path="res://Scripts/titlescreen.gd" id="1_c8di2"]
 [ext_resource type="Texture2D" uid="uid://bawgree4ary1w" path="res://Assets/Art/Logo.png" id="2_odatp"]
+[ext_resource type="Texture2D" uid="uid://b8vijph4h6qm0" path="res://Assets/Art/Landscapes/origbig.png" id="3_p3jqw"]
+[ext_resource type="AudioStream" uid="uid://do60l0s47boyo" path="res://Assets/Sounds/menuclick.wav" id="4_fge1g"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -19,10 +21,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 120.0
-offset_top = -56.0
-offset_right = 188.0
-offset_bottom = -13.0
+offset_left = 124.0
+offset_top = -59.0
+offset_right = 244.0
+offset_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 25
@@ -36,9 +38,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = 124.0
-offset_top = 35.0
-offset_right = 185.0
-offset_bottom = 78.0
+offset_top = 26.0
+offset_right = 244.0
+offset_bottom = 86.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 25
@@ -47,6 +49,19 @@ text = "Quit"
 [node name="Logo" type="Sprite2D" parent="."]
 position = Vector2(339, 312)
 texture = ExtResource("2_odatp")
+
+[node name="Origbig" type="Sprite2D" parent="."]
+modulate = Color(0.470588, 0.470588, 0.470588, 0.741176)
+z_index = -5
+position = Vector2(564, 327)
+scale = Vector2(0.534345, 0.534345)
+texture = ExtResource("3_p3jqw")
+
+[node name="ButtonClickSound" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(14, 0)
+stream = ExtResource("4_fge1g")
+volume_db = 1.0
+bus = &"SFX"
 
 [connection signal="button_down" from="Start" to="." method="_on_start_button_down"]
 [connection signal="button_down" from="Quit" to="." method="_on_quit_button_down"]
