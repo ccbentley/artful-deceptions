@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://Scripts/titlescreen.gd" id="1_c8di2"]
 [ext_resource type="Texture2D" uid="uid://bawgree4ary1w" path="res://Assets/Art/Logo.png" id="2_odatp"]
-[ext_resource type="Texture2D" uid="uid://b8vijph4h6qm0" path="res://Assets/Art/Landscapes/origbig.png" id="3_p3jqw"]
-[ext_resource type="AudioStream" uid="uid://do60l0s47boyo" path="res://Assets/Sounds/menuclick.wav" id="4_fge1g"]
+[ext_resource type="Texture2D" uid="uid://b8vijph4h6qm0" path="res://Assets/Art/Landscapes/LandscapeBig.png" id="3_p3jqw"]
+[ext_resource type="AudioStream" uid="uid://do60l0s47boyo" path="res://Assets/Sounds/MenuClick.wav" id="4_fge1g"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -14,48 +14,157 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_c8di2")
 
-[node name="Start" type="Button" parent="."]
-layout_mode = 1
+[node name="Main" type="Node2D" parent="."]
+
+[node name="Start" type="Button" parent="Main"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 124.0
-offset_top = -59.0
-offset_right = 244.0
-offset_bottom = 1.0
+offset_left = 700.0
+offset_top = 225.0
+offset_right = 820.0
+offset_bottom = 285.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 25
 text = "Start"
 
-[node name="Quit" type="Button" parent="."]
-layout_mode = 1
+[node name="Settings" type="Button" parent="Main"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 124.0
-offset_top = 26.0
-offset_right = 244.0
-offset_bottom = 86.0
+offset_left = 700.0
+offset_top = 300.0
+offset_right = 820.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+text = "Settings"
+
+[node name="Credits" type="Button" parent="Main"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 700.0
+offset_top = 375.0
+offset_right = 820.0
+offset_bottom = 435.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+text = "Credits"
+
+[node name="Quit" type="Button" parent="Main"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 700.0
+offset_top = 450.0
+offset_right = 820.0
+offset_bottom = 510.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 25
 text = "Quit"
 
-[node name="Logo" type="Sprite2D" parent="."]
-position = Vector2(339, 312)
-texture = ExtResource("2_odatp")
+[node name="Settings" type="Node2D" parent="."]
 
-[node name="Origbig" type="Sprite2D" parent="."]
+[node name="Back" type="Button" parent="Settings"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 700.0
+offset_top = 450.0
+offset_right = 820.0
+offset_bottom = 510.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+text = "Back"
+
+[node name="MusicLabel" type="Label" parent="Settings"]
+offset_left = 450.0
+offset_top = 250.0
+offset_right = 1077.0
+offset_bottom = 325.0
+text = "Music Volume"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SFXLabel" type="Label" parent="Settings"]
+offset_left = 450.0
+offset_top = 300.0
+offset_right = 1077.0
+offset_bottom = 375.0
+text = "SFX Volume"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MusicSlider" type="HSlider" parent="Settings"]
+offset_left = 650.0
+offset_top = 300.0
+offset_right = 850.0
+offset_bottom = 325.0
+min_value = -80.0
+max_value = 0.0
+
+[node name="SFXSlider" type="HSlider" parent="Settings"]
+offset_left = 650.0
+offset_top = 350.0
+offset_right = 850.0
+offset_bottom = 375.0
+min_value = -80.0
+max_value = 0.0
+
+[node name="Credits" type="Node2D" parent="."]
+
+[node name="Back" type="Button" parent="Credits"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 700.0
+offset_top = 450.0
+offset_right = 820.0
+offset_bottom = 510.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+text = "Back"
+
+[node name="Label" type="Label" parent="Credits"]
+offset_left = 448.0
+offset_top = 306.0
+offset_right = 1075.0
+offset_bottom = 381.0
+text = "Made By: ccbentley
+Background Art: https://free-game-assets.itch.io/nature-landscapes-free-pixel-art
+Music and SFX: https://pixabay.com"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LandscapeBig" type="Sprite2D" parent="."]
 modulate = Color(0.470588, 0.470588, 0.470588, 0.741176)
 z_index = -5
 position = Vector2(564, 327)
 scale = Vector2(0.534345, 0.534345)
 texture = ExtResource("3_p3jqw")
+
+[node name="Logo" type="Sprite2D" parent="."]
+position = Vector2(339, 312)
+texture = ExtResource("2_odatp")
 
 [node name="ButtonClickSound" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(14, 0)
@@ -63,5 +172,11 @@ stream = ExtResource("4_fge1g")
 volume_db = 1.0
 bus = &"SFX"
 
-[connection signal="button_down" from="Start" to="." method="_on_start_button_down"]
-[connection signal="button_down" from="Quit" to="." method="_on_quit_button_down"]
+[connection signal="button_down" from="Main/Start" to="." method="_on_start_button_down"]
+[connection signal="button_down" from="Main/Settings" to="." method="_on_settings_button_down"]
+[connection signal="button_down" from="Main/Credits" to="." method="_on_credits_button_down"]
+[connection signal="button_down" from="Main/Quit" to="." method="_on_quit_button_down"]
+[connection signal="button_down" from="Settings/Back" to="." method="_on_settings_back_button_down"]
+[connection signal="value_changed" from="Settings/MusicSlider" to="." method="_on_music_slider_value_changed"]
+[connection signal="value_changed" from="Settings/SFXSlider" to="." method="_on_sfx_slider_value_changed"]
+[connection signal="button_down" from="Credits/Back" to="." method="_on_credits_back_button_down"]

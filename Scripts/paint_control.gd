@@ -4,7 +4,7 @@ var hovered_pixel = null
 var selected_color = Color(0,0,0,1)
 var current_drawing = null
 var money : float = 0
-var round : int = 1
+var current_round : int = 1
 var max_rounds : int = 6
 
 var can_draw : bool = false
@@ -92,7 +92,7 @@ func clear_canvas():
 func start_round():
 	pick_drawing()
 	draw_fixed(current_drawing)
-	round += 1
+	current_round += 1
 	can_draw = true
 	selected_color = Color(0, 0, 0, 1)
 	anim.play("round_start")
@@ -112,6 +112,7 @@ func animate_score():
 	while current_score < final_score:
 		current_score += 1
 		score_label.text = str(current_score, "% Accuracy")
+		button_sound.play()
 		await get_tree().create_timer(time_per_increment).timeout
 
 func start_clock():
@@ -125,7 +126,7 @@ func _on_return_button_down():
 	button_sound.play()
 
 func _on_nextdrawing_button_down():
-	if(round > max_rounds):
+	if(current_round > max_rounds):
 		end_game()
 	else:
 		score_label.text = str("0% Accuracy")
@@ -133,7 +134,7 @@ func _on_nextdrawing_button_down():
 	button_sound.play()
 
 func enter_pre_round():
-	$Begin/Label.text = str("Round ", round, "/", max_rounds, "\n Click Anywhere To Begin")
+	$Begin/Label.text = str("Round ", current_round, "/", max_rounds, "\n Click Anywhere To Begin")
 	preround.visible = true
 
 func exit_pre_round():

@@ -42,9 +42,9 @@
 [ext_resource type="Texture2D" uid="uid://q0pktexu66iv" path="res://Assets/Art/Clock/5.png" id="39_x6p5i"]
 [ext_resource type="Texture2D" uid="uid://b3opa17wbl5aw" path="res://Assets/Art/Clock/6.png" id="40_utc2h"]
 [ext_resource type="Texture2D" uid="uid://b0fl0mikc4o5q" path="res://Assets/Art/Clock/7.png" id="41_wcq65"]
-[ext_resource type="Texture2D" uid="uid://b8vijph4h6qm0" path="res://Assets/Art/Landscapes/origbig.png" id="43_im3e6"]
-[ext_resource type="AudioStream" uid="uid://b7qvkds2dl67s" path="res://Assets/Sounds/clocktick.mp3" id="44_7unv5"]
-[ext_resource type="AudioStream" uid="uid://do60l0s47boyo" path="res://Assets/Sounds/menuclick.wav" id="44_51tin"]
+[ext_resource type="Texture2D" uid="uid://b8vijph4h6qm0" path="res://Assets/Art/Landscapes/LandscapeBig.png" id="43_im3e6"]
+[ext_resource type="AudioStream" uid="uid://b7qvkds2dl67s" path="res://Assets/Sounds/ClockTick.mp3" id="44_7unv5"]
+[ext_resource type="AudioStream" uid="uid://do60l0s47boyo" path="res://Assets/Sounds/MenuClick.wav" id="44_51tin"]
 [ext_resource type="AudioStream" uid="uid://c1ij0nmqayi27" path="res://Assets/Sounds/ClassicalPiano.mp3" id="45_kx0r6"]
 
 [sub_resource type="Animation" id="Animation_b35mh"]
@@ -6437,7 +6437,7 @@ offset_right = 931.0
 offset_bottom = 301.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 50
-text = "Round 1/5
+text = "Round 1/6
 Click Anywhere To Start Begin"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -6519,7 +6519,7 @@ stream = ExtResource("45_kx0r6")
 volume_db = 1.0
 bus = &"Music"
 
-[node name="Origbig" type="Sprite2D" parent="."]
+[node name="LandscapeBig" type="Sprite2D" parent="."]
 modulate = Color(0.470588, 0.470588, 0.470588, 0.741176)
 z_index = -5
 position = Vector2(564, 327)

@@ -1,6 +1,6 @@
 extends Node
 
-func _process(delta):
+func _process(_delta):
 	if(self.modulate.a == 0):
 		self.disabled = true
 	elif(self.get_parent() != null and self.get_parent().name != "CanvasLayer"):
