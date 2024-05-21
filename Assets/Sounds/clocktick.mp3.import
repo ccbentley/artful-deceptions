@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://b7qvkds2dl67s"
-path="res://.godot/imported/ClockTick.mp3-2cc0fa749a2e1459b525513c0c1d58f6.mp3str"
+path="res://.godot/imported/clocktick.mp3-8dc196aff480bce9ea26adfefdc55e24.mp3str"
 
 [deps]
 
-source_file="res://Assets/Sounds/ClockTick.mp3"
-dest_files=["res://.godot/imported/ClockTick.mp3-2cc0fa749a2e1459b525513c0c1d58f6.mp3str"]
+source_file="res://Assets/Sounds/clocktick.mp3"
+dest_files=["res://.godot/imported/clocktick.mp3-8dc196aff480bce9ea26adfefdc55e24.mp3str"]
 
 [params]
 
