@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/titlescreen.gd" id="1_c8di2"]
 [ext_resource type="Texture2D" uid="uid://bawgree4ary1w" path="res://Assets/Art/Logo.png" id="2_odatp"]
 [ext_resource type="Texture2D" uid="uid://b8vijph4h6qm0" path="res://Assets/Art/Landscapes/LandscapeBig.png" id="3_p3jqw"]
-[ext_resource type="AudioStream" uid="uid://do60l0s47boyo" path="res://Assets/Sounds/MenuClick.wav" id="4_fge1g"]
+[ext_resource type="AudioStream" uid="uid://do60l0s47boyo" path="res://Assets/Sounds/menuclick.wav" id="4_fge1g"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
